@@ -1,0 +1,170 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Touch Grass</title>
+<meta name="description" content="Touch Grass: nature's representation by the terminally online. Prototype of the online exhibition.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Courier+Prime:ital,wght@0,400;0,700;1,400&family=Libre+Caslon+Text:ital@0;1&display=swap">
+<link rel="stylesheet" href="css/style.css">
+<script type="importmap">
+{ "imports": { "three": "https://cdn.jsdelivr.net/npm/three@0.160.0/build/three.module.js" } }
+</script>
+<script type="module" src="js/main.js"></script>
+</head>
+<body>
+
+<canvas id="gl" aria-label="A grassy hill under a blue sky"></canvas>
+
+<div id="stage">
+  <div id="room" aria-hidden="true">
+    <div class="wall"></div>
+    <div class="desk"></div>
+    <div class="tower"><span class="bay"></span><span class="bay"></span><span class="floppy"></span><span class="tower-led"></span></div>
+    <div class="speaker left"><span class="cone"></span></div>
+    <div class="speaker right"><span class="cone"></span></div>
+    <div class="neck"></div>
+    <div class="base"></div>
+    <div class="bezel">
+      <span class="plate">TG&#8209;15</span>
+      <span class="led"></span>
+      <span class="power"></span>
+    </div>
+    <div class="keyboard"></div>
+  </div>
+
+  <div id="screen">
+    <div id="desktop">
+      <ul class="icons">
+        <li><button class="icon" type="button" data-kind="readme" style="--i:0"><span class="ic ic-txt" aria-hidden="true"></span><span class="nm">readme.txt</span></button></li>
+        <li><button class="icon" type="button" data-kind="work" data-work="0" data-file="anadol.jpg" style="--i:1"><span class="ic ic-img"><img alt=""></span><span class="nm">anadol.jpg</span></button></li>
+        <li><button class="icon" type="button" data-kind="work" data-work="1" data-file="ambrosi.jpg" style="--i:2"><span class="ic ic-img"><img alt=""></span><span class="nm">ambrosi.jpg</span></button></li>
+        <li><button class="icon" type="button" data-kind="work" data-work="2" data-file="touch_grass.gif" style="--i:3"><span class="ic ic-img"><img alt=""></span><span class="nm">touch_<wbr>grass.gif</span></button></li>
+        <li><button class="icon" type="button" data-kind="compost" style="--i:4"><span class="ic ic-compost" aria-hidden="true"></span><span class="nm">Compost</span></button></li>
+      </ul>
+
+      <section class="window" id="readme" aria-label="readme.txt">
+        <header class="titlebar">
+          <span class="tb-title">readme.txt</span>
+          <button class="tb-btn" id="readme-close" type="button" aria-label="Close readme.txt">&times;</button>
+        </header>
+        <div class="menubar" aria-hidden="true"><span>File</span><span>Edit</span><span>View</span></div>
+        <div class="doc">
+          <p><b>TOUCH GRASS</b><br>Nature's representation by the terminally online</p>
+          <p>15 years ago, the internet was an escape from the real world. Today, the real world is an escape from the internet.</p>
+          <p>To go outside, press <button class="doc-btn" type="button" data-act="outside">Show desktop</button> or don't touch anything for 15 seconds.</p>
+        </div>
+      </section>
+
+      <div class="dialog" id="dialog" role="alertdialog" aria-labelledby="dlg-title" aria-describedby="dlg-msg" hidden>
+        <header class="titlebar"><span class="tb-title" id="dlg-title">File moved</span></header>
+        <div class="dlg-body"><span class="dlg-ic" aria-hidden="true"></span><p id="dlg-msg"></p></div>
+        <div class="dlg-actions">
+          <button class="os-btn" type="button" data-act="outside">Go outside</button>
+          <button class="os-btn" type="button" data-act="ok">OK</button>
+        </div>
+      </div>
+
+      <div class="startmenu" id="startmenu" hidden>
+        <div class="sm-side" aria-hidden="true">Touch Grass</div>
+        <ul>
+          <li><button type="button" data-act="outside">Go outside</button></li>
+          <li><button type="button" data-act="readme">Open readme.txt</button></li>
+          <li><button type="button" disabled>Shut down</button></li>
+        </ul>
+      </div>
+
+      <footer class="taskbar">
+        <button class="start" id="start-btn" type="button" aria-expanded="false" aria-controls="startmenu">
+          <svg viewBox="0 0 16 16" aria-hidden="true"><path d="M8 15V8" stroke="#2d6a12" stroke-width="1.6" fill="none"/><path d="M8 9C8 5 5 3.5 2 4c0 3 2.5 5 6 5z" fill="#4c9a1f"/><path d="M8 8c0-3.2 2.4-5 6-4.6C14 6.6 11.6 8.4 8 8z" fill="#6cc22e"/></svg>
+          Start
+        </button>
+        <button class="ql" id="showdesk" type="button" title="Show desktop" aria-label="Show desktop">
+          <svg viewBox="0 0 16 16" aria-hidden="true"><rect x="1.5" y="2.5" width="13" height="9" fill="#3a6fd8" stroke="#1c2f5a"/><path d="M2 11l4-3.5 3 2 2-1.5 3 3z" fill="#4c9a1f"/><rect x="6" y="12" width="4" height="1.5" fill="#777"/></svg>
+        </button>
+        <span class="task">readme.txt</span>
+        <span class="tray"><span class="tray-leaf" aria-hidden="true"></span><time id="clock">10:20</time></span>
+      </footer>
+    </div>
+
+    <div id="crt" aria-hidden="true"></div>
+
+    <div id="boot" role="status">
+      <p>TG-15 BIOS v1.5</p>
+      <p>Memory test: 65536K OK</p>
+      <p>Detecting outside ... not found</p>
+      <p>Loading wallpaper ...</p>
+      <p id="boot-fail"></p>
+    </div>
+  </div>
+</div>
+
+<div id="field-ui" hidden>
+  <header class="fu-top">
+    <p class="wordmark"><span class="wm-title">Touch Grass</span><span class="wm-sub">Nature's representation by the terminally online</span></p>
+    <button class="btn-label" id="back-inside" type="button">Back inside <kbd>esc</kbd></button>
+  </header>
+
+  <nav class="core" id="core" aria-label="Where you are on the trail" data-here="sky">
+    <ol class="core-bar">
+      <li class="band sky" data-layer="sky"><span>Sky</span></li>
+      <li class="band grass" data-layer="grass"><span>Grass</span></li>
+      <li class="band soil unbuilt"><span>Soil</span></li>
+      <li class="band roots unbuilt"><span>Roots</span></li>
+      <li class="band bedrock unbuilt"><span>Bedrock</span></li>
+    </ol>
+    <span class="core-mark" id="core-mark" aria-hidden="true"></span>
+  </nav>
+
+  <p class="hint" id="hint"><span class="hint-mouse">Scroll to walk the trail</span><span class="hint-touch">Swipe up to walk the trail</span></p>
+
+  <article class="label-card" id="stop-card" aria-live="polite">
+    <p class="lc-eyebrow"><span id="lc-layer">Sky · the cloud</span><span id="lc-count">Stop 1 of 3</span></p>
+    <h2 class="lc-artist" id="lc-artist">Refik Anadol</h2>
+    <p class="lc-title" id="lc-title">Work to be confirmed</p>
+    <p class="lc-note">Medium and year to be confirmed. Placeholder image.</p>
+    <button class="ink-btn" id="lc-open" type="button">Open specimen sheet</button>
+  </article>
+
+  <article class="label-card end-card" id="end-card">
+    <p class="lc-eyebrow"><span>Grass · the surface</span><span>End of prototype</span></p>
+    <h2 class="lc-artist">Touch the grass</h2>
+    <p class="lc-body">Brush through it with your cursor or finger.</p>
+    <p class="lc-body">The trail goes underground from here. Soil, roots and bedrock aren't built yet.</p>
+    <button class="ink-btn" id="end-back" type="button">Back inside</button>
+  </article>
+</div>
+
+<div id="sheet" hidden>
+  <div class="sheet" role="dialog" aria-modal="true" aria-labelledby="sh-taxon">
+    <p class="sh-stamp" aria-hidden="true">Touch Grass<br>Herbarium</p>
+    <p class="sh-acc" id="sh-acc">TG-001</p>
+    <figure class="sh-specimen">
+      <img id="sh-img" alt="">
+      <span class="strap s1"></span><span class="strap s2"></span><span class="strap s3"></span>
+    </figure>
+    <div class="sh-foot">
+      <p class="sh-note">Placeholder image made for this prototype. It is not the artist's work.</p>
+      <dl class="sh-label">
+        <div class="lbl-head">Touch Grass Herbarium</div>
+        <div><dt>Taxon</dt><dd id="sh-taxon">Work to be confirmed</dd></div>
+        <div><dt>Collector</dt><dd id="sh-coll">Refik Anadol</dd></div>
+        <div><dt>Layer</dt><dd id="sh-layer">Sky, the cloud</dd></div>
+        <div><dt>Habitat</dt><dd id="sh-hab"></dd></div>
+        <div><dt>Locality</dt><dd>URL or contract to be added</dd></div>
+        <div><dt>Det.</dt><dd>Curator, 2026</dd></div>
+      </dl>
+    </div>
+    <div class="sh-actions">
+      <button class="ink-btn ghost" type="button" disabled>Plant it: live link to be added</button>
+      <button class="ink-btn" id="sh-close" type="button">Back to the trail</button>
+    </div>
+  </div>
+</div>
+
+<div id="trail" aria-hidden="true"></div>
+
+</body>
+</html>
