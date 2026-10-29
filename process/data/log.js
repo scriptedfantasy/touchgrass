@@ -26,5 +26,8 @@ TG.log = [
   { who: 'CLAUDE', say: 'The longlist below is that list: 58 artists, 131 works, every source linked. To grow it into an archive, I can go two ways: more works by these 58 artists, or new artists beyond your list. Which first?' },
   { who: 'LUKAS', say: 'The board should not be written as a play. It is a log that takes its format from a play. It should still read as a log.' },
   { dir: 'Claude turns the acts and scenes back into numbered, dated log entries and keeps the speaker names and stage directions.' },
-  { who: 'CLAUDE', say: 'Done. The question above is still open: more works by these 58 artists, or new artists first?', open: true },
+  { who: 'CLAUDE', say: 'Done. The question above is still open: more works by these 58 artists, or new artists first?' },
+  { who: 'LUKAS', say: 'Fetch images of the artworks that fit our theme, from the links you found.' },
+  { dir: 'Claude tries all 195 source sites. The session\'s network policy refuses every one of them, Wikipedia included.' },
+  { who: 'CLAUDE', say: 'I can\'t reach any of them from here. Once the network access is opened, I\'ll pull an image from each source page, look at each one, and keep the ones that show the work. Which images fit the theme stays your call.', open: true },
 ];
