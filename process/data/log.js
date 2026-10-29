@@ -29,5 +29,7 @@ TG.log = [
   { who: 'CLAUDE', say: 'Done. The question above is still open: more works by these 58 artists, or new artists first?' },
   { who: 'LUKAS', say: 'Fetch images of the artworks that fit our theme, from the links you found.' },
   { dir: 'Claude tries all 195 source sites. The session\'s network policy refuses every one of them, Wikipedia included.' },
-  { who: 'CLAUDE', say: 'I can\'t reach any of them from here. Once the network access is opened, I\'ll pull an image from each source page, look at each one, and keep the ones that show the work. Which images fit the theme stays your call.', open: true },
+  { who: 'CLAUDE', say: 'I can\'t reach any of them from here. Once the network access is opened, I\'ll pull an image from each source page, look at each one, and keep the ones that show the work. Which images fit the theme stays your call.' },
+  { who: 'LUKAS', say: 'Let\'s move this session to my computer. Should we start by pushing the current research to git?' },
+  { who: 'CLAUDE', say: 'It is already pushed. The one thing a local session would lack is what lives only in this conversation: your working rules and the open threads. I wrote those down in CLAUDE.md at the root of the repository.', open: true },
 ];
