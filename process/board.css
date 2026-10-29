@@ -1,4 +1,4 @@
-/* Process board: one column of monospace text, black on white, set like a play script. */
+/* Process board: one column of monospace text, black on white. The log borrows the layout of a play script. */
 :root {
   --ink: #000;
   --paper: #fff;
@@ -29,18 +29,17 @@ h2::after { content: " =="; }
 a { color: var(--ink); text-underline-offset: 2px; }
 a:focus-visible, summary:focus-visible { outline: 2px solid var(--ink); outline-offset: 2px; }
 
-.cast { display: grid; grid-template-columns: var(--name) 1fr; gap: 0; }
-.cast .who { font-weight: 400; }
-
-/* script */
-.script { display: grid; gap: 0.9em; }
-.act { text-align: center; margin-top: var(--step); }
-.act:first-child { margin-top: 0; }
-.scene { text-align: center; font-style: italic; }
-.dir { font-style: italic; padding-left: var(--name); }
-.line { display: grid; grid-template-columns: var(--name) 1fr; }
-.say { display: grid; gap: 0.4em; min-width: 0; }
-.line.open .say p::after { content: " _"; }
+/* log: numbered entries, speaker names set like a play script */
+.log { list-style: none; display: grid; gap: 0.9em; }
+.date { font-weight: 600; margin-top: var(--step); }
+.date:first-child { margin-top: 0; }
+.date::before { content: "-- "; }
+.date::after { content: " --"; }
+.entry { display: grid; grid-template-columns: 5ch var(--name) 1fr; }
+.entry > p, .say { min-width: 0; }
+.say { display: grid; gap: 0.4em; }
+.dir p { font-style: italic; }
+.open .say p::after { content: " _"; }
 summary { cursor: pointer; font-style: italic; }
 details pre { white-space: pre-wrap; padding: 0.4em 0 0 2ch; }
 
@@ -54,8 +53,8 @@ details pre { white-space: pre-wrap; padding: 0.4em 0 0 2ch; }
 .works.none { font-style: italic; padding-left: 4ch; }
 
 @media (max-width: 520px) {
-  .line, .cast { grid-template-columns: 1fr; }
-  .dir { padding-left: 0; }
-  .say { padding-left: 2ch; }
+  .entry { grid-template-columns: 5ch 1fr; }
+  .entry .who:empty { display: none; }
+  .entry .say, .entry > p { grid-column: 2; }
   .works, .works.none { padding-left: 2ch; }
 }

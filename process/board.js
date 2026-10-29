@@ -1,7 +1,7 @@
-// Renders the process board from data/brief.js, data/script.js and data/research.js.
+// Renders the process board from data/brief.js, data/log.js and data/research.js.
 (function () {
   const TG = window.TG || {};
-  const script = TG.script || [];
+  const log = TG.log || [];
   const artists = (TG.research || {}).artists || [];
   const brief = TG.brief || [];
 
@@ -19,27 +19,25 @@
 <header class="head">
   <h1>Touch Grass</h1>
   <p>Nature's Representation Online</p>
-  <p>A process board, written as a play.</p>
-</header>
-<section class="cast" aria-label="Dramatis personae">
-  <p class="who">LUKAS</p><p>curator</p>
-  <p class="who">CLAUDE</p><p>curator</p>
-</section>`;
+  <p>Process board. Curated by Lukas and Claude.</p>
+</header>`;
   }
 
-  function renderScript() {
-    const lines = script.map(l => {
-      if (l.act) return `<h3 class="act">${esc(l.act)}</h3>`;
-      if (l.scene) return `<p class="scene">${esc(l.scene)}</p>`;
-      if (l.dir) return `<p class="dir">(${esc(l.dir)})</p>`;
-      const list = l.brief
+  // Entries are numbered in order; date rows start a new day and take no number.
+  function renderLog() {
+    let n = 0;
+    const rows = log.map(e => {
+      if (e.date) return `<li class="date">${esc(e.date)}</li>`;
+      const num = String(++n).padStart(3, '0');
+      if (e.dir) return `<li class="entry dir"><span class="num">${num}</span><span class="who"></span><p>(${esc(e.dir)})</p></li>`;
+      const list = e.brief
         ? `<details><summary>the list, ${brief.length} lines</summary><pre>${esc(brief.join('\n'))}</pre></details>` : '';
-      return `<div class="line${l.open ? ' open' : ''}"><p class="who">${esc(l.who)}</p><div class="say"><p>${esc(l.say)}</p>${list}</div></div>`;
+      return `<li class="entry${e.open ? ' open' : ''}"><span class="num">${num}</span><span class="who">${esc(e.who)}</span><div class="say"><p>${esc(e.say)}</p>${list}</div></li>`;
     }).join('');
     return `
-<section aria-labelledby="h-script">
-  <h2 id="h-script">Script</h2>
-  <div class="script">${lines}</div>
+<section aria-labelledby="h-log">
+  <h2 id="h-log">Log</h2>
+  <ol class="log">${rows}</ol>
 </section>`;
   }
 
@@ -66,5 +64,5 @@
 </section>`;
   }
 
-  document.getElementById('board').innerHTML = renderHead() + renderScript() + renderLonglist();
+  document.getElementById('board').innerHTML = renderHead() + renderLog() + renderLonglist();
 })();
