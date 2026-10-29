@@ -1,8 +1,9 @@
-/* Process board: one column of monospace text, black on white, nothing else. */
+/* Process board: one column of monospace text, black on white, set like a play script. */
 :root {
   --ink: #000;
   --paper: #fff;
   --mono: "IBM Plex Mono", ui-monospace, "SFMono-Regular", Menlo, Consolas, monospace;
+  --name: 9ch;
   --step: 1.6em;
   color-scheme: light;
 }
@@ -18,68 +19,43 @@ body {
   padding-right: max(16px, env(safe-area-inset-right, 0px));
 }
 
-main { max-width: 88ch; margin: 0 auto; display: grid; gap: calc(var(--step) * 2); overflow-wrap: anywhere; }
+main { max-width: 76ch; margin: 0 auto; display: grid; gap: calc(var(--step) * 2); overflow-wrap: anywhere; }
 section { display: grid; gap: var(--step); min-width: 0; }
 
-h1, h2, h3, p, ol, ul, dl, dd { margin: 0; padding: 0; font-size: inherit; font-weight: inherit; }
-h1, h2 { text-transform: uppercase; letter-spacing: 0.06em; font-weight: 600; }
+h1, h2, h3, p, ol, ul, pre { margin: 0; padding: 0; font: inherit; }
+h1, h2, h3, .who { text-transform: uppercase; letter-spacing: 0.06em; font-weight: 600; }
 h2::before { content: "== "; }
 h2::after { content: " =="; }
-a { color: var(--ink); text-decoration: underline; text-underline-offset: 2px; overflow-wrap: anywhere; }
-a:focus-visible, button:focus-visible { outline: 2px solid var(--ink); outline-offset: 2px; }
-hr { border: 0; border-top: 1px dashed var(--ink); margin: 0; width: 100%; }
+a { color: var(--ink); text-underline-offset: 2px; }
+a:focus-visible, summary:focus-visible { outline: 2px solid var(--ink); outline-offset: 2px; }
 
-.head { display: grid; gap: 0.2em; }
-.meta { display: grid; grid-template-columns: max-content 1fr; column-gap: 2ch; }
-.meta dt { text-transform: uppercase; }
+.cast { display: grid; grid-template-columns: var(--name) 1fr; gap: 0; }
+.cast .who { font-weight: 400; }
 
-.legend { display: grid; gap: 0.2em; }
+/* script */
+.script { display: grid; gap: 0.9em; }
+.act { text-align: center; margin-top: var(--step); }
+.act:first-child { margin-top: 0; }
+.scene { text-align: center; font-style: italic; }
+.dir { font-style: italic; padding-left: var(--name); }
+.line { display: grid; grid-template-columns: var(--name) 1fr; }
+.say { display: grid; gap: 0.4em; min-width: 0; }
+.line.open .say p::after { content: " _"; }
+summary { cursor: pointer; font-style: italic; }
+details pre { white-space: pre-wrap; padding: 0.4em 0 0 2ch; }
 
-/* log */
-.log { list-style: none; display: grid; gap: var(--step); }
-.entry { display: grid; gap: 0.4em; min-width: 0; }
-.entry-head { font-weight: 600; white-space: pre-wrap; }
-.entry-body { padding-left: 6ch; display: grid; gap: 0.4em; min-width: 0; }
-.entry-body ul { list-style: none; display: grid; gap: 0.15em; }
-.entry-body li { padding-left: 2ch; text-indent: -2ch; }
-.entry-body li::before { content: "- "; }
-.entry.next .entry-head::after { content: "  [open]"; }
-
-/* summary table */
-.scroll { overflow-x: auto; min-width: 0; }
-table { border-collapse: collapse; font-variant-numeric: tabular-nums; width: 100%; }
-th, td { text-align: left; vertical-align: top; padding: 0.15em 2ch 0.15em 0; white-space: nowrap; }
-th { font-weight: 600; text-transform: uppercase; border-bottom: 1px solid var(--ink); }
-td.wrap { white-space: normal; min-width: 18ch; }
-
-/* filters */
-.filters { display: flex; flex-wrap: wrap; gap: 0.5em 2ch; }
-.filters button {
-  font: inherit; color: var(--ink); background: var(--paper);
-  border: 0; padding: 0; cursor: pointer;
-}
-.filters button::before { content: "[ ] "; }
-.filters button[aria-pressed="true"]::before { content: "[x] "; }
-
-/* artist records */
-.artists { list-style: none; display: grid; gap: calc(var(--step) * 1.25); }
-.artist { display: grid; gap: 0.5em; min-width: 0; }
-.artist-head { font-weight: 600; }
-.artist-body { padding-left: 6ch; display: grid; gap: 0.5em; min-width: 0; }
-.works { list-style: none; display: grid; gap: 0.9em; }
-.work { display: grid; gap: 0.15em; min-width: 0; }
-.work-title { font-weight: 600; }
-.work-title i { font-weight: 400; }
-.kv { display: grid; grid-template-columns: 9ch 1fr; column-gap: 1ch; }
-.kv dt { text-transform: lowercase; }
-.kv dd { min-width: 0; }
-.muted::before { content: "// "; }
-
-pre.brief { margin: 0; font: inherit; white-space: pre-wrap; }
+/* longlist */
+.artists { list-style: none; display: grid; gap: 1.1em; }
+.artist-head { display: flex; justify-content: space-between; gap: 2ch; font-weight: 600; }
+.works { list-style: none; padding-left: 4ch; display: grid; gap: 0.3em; }
+.works li { padding-left: 2ch; text-indent: -2ch; }
+.works .links { display: block; text-indent: 0; }
+.works .links a + a { margin-left: 2ch; }
+.works.none { font-style: italic; padding-left: 4ch; }
 
 @media (max-width: 520px) {
-  .entry-body, .artist-body { padding-left: 2ch; }
-  .meta { grid-template-columns: 1fr; }
-  .kv { grid-template-columns: 1fr; }
-  .kv dd { padding-left: 2ch; }
+  .line, .cast { grid-template-columns: 1fr; }
+  .dir { padding-left: 0; }
+  .say { padding-left: 2ch; }
+  .works, .works.none { padding-left: 2ch; }
 }

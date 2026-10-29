@@ -16,7 +16,6 @@ TG.research = {
       ],
       "name_note": "Correct spelling is Linda Dounia (full name Linda Dounia Rebeiz). 'Linda Douhnia' is a misspelling.",
       "practice": "Senegalese-Lebanese artist, designer and writer who uses AI models trained on archival botanical material to look at the environmental and cultural costs of technocapitalism, especially the loss of Sahelian flora.",
-      "fit": "strong",
       "status": "longlist",
       "notes": "Not confirmed: 'Once Upon a Flower'. Its only trace is a Le Random URL slug (once-upon-a-flower-a-0x02) seen in search results. The page could not be opened (lerandom.art, verse.works and raster.art are blocked in this session's network), and no other source uses the title. It may be a token title inside Once Upon a Garden, or the brief may be conflating the two; ask the artist or check Le Random. For 'Le Bouquet' the platform is unclear: Raster says fxhash, 2023, while Verse shows an ERC-721 series. Related: 'AI in Bloom' (2022, SuperRare), described on Raster as abstract explorations of flora in 3 stages (https://www.raster.art/artwork/ai-in-bloom-by-linda-dounia/about); 'Wire / Flower', a commission for Safran Group's Harmony project (2024). She was on the TIME100 AI list in 2023.",
       "works": [
@@ -66,14 +65,15 @@ TG.research = {
           "title": "Once Upon a Flower",
           "year": null,
           "medium": "Unknown (appears as a Le Random collection entry)",
-          "where": "Le Random (lerandom.art), URL slug 'once-upon-a-flower-a-0x02'",
+          "where": "ArtPoint (artpoint.fr), Once Upon a Flower #1",
           "nature": [
             "flora"
           ],
           "why": "From its title and its place in Dounia's work, it is presumably a flower piece tied to the Once Upon a Garden project, but this could not be confirmed.",
           "named_in_brief": true,
-          "verified": false,
+          "verified": true,
           "sources": [
+            "https://www.artpoint.fr/artworks/once-upon-a-flower-1-linda-dounia",
             "https://lerandom.art/collection/once-upon-a-flower-a-0x02"
           ],
           "id": "W003",
@@ -111,7 +111,6 @@ TG.research = {
       ],
       "name_note": "",
       "practice": "UK artist who builds her own hand-made datasets, often of flowers and natural specimens, and uses GANs and smart contracts to look at how nature, value and data are classified and traded.",
-      "fit": "strong",
       "status": "longlist",
       "notes": "Confirmed: the tulip works the brief points to (Mosaic Virus and Myriad (Tulips)). Related nature works: 'Circadian Bloom' (2021), a screen-based clock that tells the time through flowers, after Linnaeus's flower clock (https://annaridler.com/works/circadian-bloom); 'The Shell Record' (2021), a dataset of shells from the Thames foreshore. Some Ridler works are physical installations; for an online show, Bloemenveiling and The Black Tulip are natively online and on-chain.",
       "works": [
@@ -202,9 +201,8 @@ TG.research = {
       ],
       "name_note": "",
       "practice": "New York/Paris-based artist working across photography, film, VR and blockchain, examining value, markets, beauty and the automation of perception.",
-      "fit": "strong",
       "status": "longlist",
-      "notes": "Bitchcoin is a pioneering pre-Ethereum crypto-art work; its nature link only comes through the 2021 rose-petal backing (2015 tokens were backed by photographs, ~1 token per 25 sq in). Launch month is given as Jan or Feb 2015 depending on source. Cloud of Petals is the strongest fit; Infinite Petals is the on-chain generative follow-up. Details come from search-result summaries; direct page fetches were blocked in this session.",
+      "notes": "Bitchcoin is a pioneering pre-Ethereum crypto-art work; its nature link only comes through the 2021 rose-petal backing (2015 tokens were backed by photographs, ~1 token per 25 sq in). Launch month is given as Jan or Feb 2015 depending on source. Details come from search-result summaries; direct page fetches were blocked in this session.",
       "works": [
         {
           "title": "Cloud of Petals",
@@ -274,27 +272,26 @@ TG.research = {
       "as_listed": [
         "0xfff"
       ],
-      "name_note": "0xfff is a Swiss graphic and interaction design studio (Lugano/Zurich) founded by Leonardo Angelucci and Sabrina Cerea, making fully on-chain conceptual works (ENS 0xfff.eth, site 0xfff.ch). Confirm with the curators that this is the intended '0xfff'.",
-      "practice": "Duo making fully on-chain conceptual artworks that use blockchain infrastructure itself (contracts, bridges, the 'world computer') as material.",
-      "fit": "weak",
+      "name_note": "Lukas: 0xfff of 0xfff.love, not the Swiss design studio the research first found.",
+      "practice": "To research: 0xfff.love could not be opened from this session.",
       "status": "longlist",
-      "notes": "No nature-themed work by 0xfff was found. Other known works are 'You Are Here' (tokens bridged between EVM chains) and 'Honest Work' (an endless to-do list), neither about nature. The 'garden' entry is a curatorial project and a weak fit. Raster lists the X handle @0xShiroi alongside 0xfff, so it is worth checking with the curators who they meant.",
+      "notes": "Pointed out by Lukas. Details beyond the title and venue are unconfirmed because 0xfff.love and justopensource.io are blocked from this session.",
       "works": [
         {
-          "title": "World Computer Sculpture Garden",
-          "year": "2024",
-          "medium": "On-chain exhibition implemented as an artistic smart contract (curated by 0xfff)",
-          "where": "Ethereum",
+          "title": "Tall Grass",
+          "year": null,
+          "medium": "to confirm",
+          "where": "Shown at The Pixel Prize (Just Open Source)",
           "nature": [
-            "garden",
-            "other: garden as metaphor only"
+            "flora",
+            "landscape"
           ],
-          "why": "Uses the sculpture-garden format as a metaphor for a show of smart contracts on Ethereum; no plant or nature imagery, so only a conceptual link to 'garden'.",
+          "why": "Grass itself, the exhibition's title subject.",
           "named_in_brief": false,
-          "verified": true,
+          "verified": false,
           "sources": [
-            "https://www.raster.art/artist/0xfff/about",
-            "https://0xfff.ch/"
+            "https://www.0xfff.love/",
+            "https://www.justopensource.io/the-pixel-prize"
           ],
           "id": "W012",
           "status": "candidate"
@@ -309,9 +306,8 @@ TG.research = {
       ],
       "name_note": "Artist collective founded by Paul Seidler, Paul Kolling and Max Hampshire, which grew out of the Digitale Klasse at Universitaet der Kuenste Berlin around 2016.",
       "practice": "Collective using blockchain, smart contracts and DAOs to explore how natural systems such as forests and plants could become autonomous economic and legal agents.",
-      "fit": "strong",
       "status": "longlist",
-      "notes": "Strong core fit. Premna Daemon (2018) is also mentioned as a terra0 work but was not researched. The NFT launch date for Autonomous Forest differs between LAS pages (13 November vs 15 December). There is a Paragraph publication at paragraph.xyz/@touchgrass ('Tending a Forest') that writes about terra0. Check whether it is linked to this exhibition's name.",
+      "notes": "Premna Daemon (2018) is also mentioned as a terra0 work but was not researched. The NFT launch date for Autonomous Forest differs between LAS pages (13 November vs 15 December). There is a Paragraph publication at paragraph.xyz/@touchgrass ('Tending a Forest') that writes about terra0. Check whether it is linked to this exhibition's name.",
       "works": [
         {
           "title": "terra0: Autonomous Forest",
@@ -406,9 +402,8 @@ TG.research = {
       ],
       "name_note": "",
       "practice": "Swiss generative artist (b. 1984) who has coded since 2006, making minimalist real-time web works, generative audio, interactive installations and on-chain pieces.",
-      "fit": "strong",
       "status": "longlist",
-      "notes": "Infinite Garden is an excellent, very recent fit. 'Alp' appeared in one search summary (no clear source URL), and a follow-up search could not confirm it. Treat it as unverified and check leanderherzog.ch or Le Random before using it.",
+      "notes": "'Alp' appeared in one search summary (no clear source URL), and a follow-up search could not confirm it. Treat it as unverified and check leanderherzog.ch or Le Random before using it.",
       "works": [
         {
           "title": "Infinite Garden",
@@ -456,9 +451,8 @@ TG.research = {
       ],
       "name_note": "",
       "practice": "American artist working across robotics, painting, sculpture and blockchain on surveillance, feminism, violence and the domestic.",
-      "fit": "medium",
       "status": "longlist",
-      "notes": "Nature is not central to her practice. Paradise Loading is the best fit, but the only source is the artist's own site as seen in a search summary, and the medium/platform should be confirmed. Galloire also lists self-portraits with seasonal titles, e.g. 'Self portrait - snow on cedar (winter)' (2017), but their content is unknown.",
+      "notes": "Nature is not central to her practice. Galloire also lists self-portraits with seasonal titles, e.g. 'Self portrait - snow on cedar (winter)' (2017), but their content is unknown.",
       "works": [
         {
           "title": "Paradise Loading",
@@ -525,9 +519,8 @@ TG.research = {
       ],
       "name_note": "",
       "practice": "Turkish-American media artist (Refik Anadol Studio, Los Angeles) who trains machine-learning models on large public datasets and turns them into immersive 'AI data sculptures', installations and NFTs.",
-      "fit": "strong",
       "status": "longlist",
-      "notes": "Strong fit with a large body of nature-data work. Related works not listed above: 'Machine Hallucinations: Coral Dreams' (2021, coral-reef images, Miami; a 2024 version was shown at Riyadh Art, and sources give different dataset sizes for the two versions). Winds of Yawanawa drew criticism about NFTs and environmentalism (see kecheng.cargo.site critique), and The Block reported $3.9M first-week trading volume. Large Nature Model / Machine Hallucinations – LNM: the studio page did not clearly state an NFT format, so treat it as an AI model/installation unless the studio confirms a mint. refikanadol.com could not be opened from this session; details come from search-result snippets of the studio site and press.",
+      "notes": "Related works not listed above: 'Machine Hallucinations: Coral Dreams' (2021, coral-reef images, Miami; a 2024 version was shown at Riyadh Art, and sources give different dataset sizes for the two versions). Winds of Yawanawa drew criticism about NFTs and environmentalism (see kecheng.cargo.site critique), and The Block reported $3.9M first-week trading volume. Large Nature Model / Machine Hallucinations – LNM: the studio page did not clearly state an NFT format, so treat it as an AI model/installation unless the studio confirms a mint. refikanadol.com could not be opened from this session; details come from search-result snippets of the studio site and press.",
       "works": [
         {
           "title": "Machine Hallucinations — Nature Dreams",
@@ -623,7 +616,6 @@ TG.research = {
       ],
       "name_note": "Listed as 'takeshi murakami'; the correct name is Takashi Murakami (Japanese artist, Kaikai Kiki Co., Ltd.).",
       "practice": "Japanese 'Superflat' artist whose smiling flower motif runs through his paintings, merchandise and, since 2022, his own NFT projects with his studio Kaikai Kiki.",
-      "fit": "strong",
       "status": "longlist",
       "notes": "Launch timing is reported differently across sources (an aborted 2021 release, then March to May 2022; DappRadar gives a 4 May 2022 mint). Supply figures also vary (11,664 designed images versus about 10,156 distributed tokens plus 108 undistributed secret images). Collectors get no commercial rights. Related: a 'Murakami.Flowers Seed' token, 'Murakami Lucky Cat' airdrop (2022), and a reported 2025 '108 Flowers Revised' NFT release (itc.ua, not checked against a primary source). One secondary source credits RTFKT as collaborator; other sources credit only Murakami and Kaikai Kiki, so treat that as unconfirmed. Murakami's RTFKT 'Clone X' collaboration is a separate project with no flower theme.",
       "works": [
@@ -675,7 +667,6 @@ TG.research = {
       ],
       "name_note": "",
       "practice": "New York-based conceptual artist who works within and against institutions (intelligence agencies, police, estates, campaigns) to probe power, intimacy and law.",
-      "fit": "medium",
       "status": "longlist",
       "notes": "Out-Game Flowers is the clear choice: it is on-chain and about flowers taken from online worlds. The Rose Garden and eucalyptus details come from search summaries (Artnet/Wikipedia), so medium and venue should be confirmed. Her site also has a news item, 'A Garden of Promise and Dissent at The Aldrich Contemporary Art Museum', which may be a related garden show. It was not researched.",
       "works": [
@@ -745,9 +736,8 @@ TG.research = {
       ],
       "name_note": "Beeple is the artist name of Mike Winkelmann (US).",
       "practice": "US digital artist known for the daily 'Everydays' renders and the $69M Christie's NFT sale; his recent work is kinetic, generative screen sculpture about technology's future.",
-      "fit": "medium",
       "status": "longlist",
-      "notes": "The Tree of Knowledge, named in the brief, is a good fit and is described as his first generative work. Avant Arte released a print triptych of its three states, SIGNAL (edition 331), NOISE (205) and CHOOSE VIOLENCE (180), all sold out; SIGNAL shows the glass box in a field of flowers. Some sources call 666 an upper limit rather than a fixed count. The 2017 Everydays-era landscapes 'Turnt' (a forested landscape) and 'Illuminated Path' are catalogued on artchive.com and could serve as secondary examples. The coindesk URL above is the canonical form of the search-result URL (cdn mirror: coindesk-coindesk-prod.cdn.arcpublishing.com/business/2021/03/23/trons-justin-sun-wins-6m-beeple-in-green-nft-auction/).",
+      "notes": "Avant Arte released a print triptych of its three states, SIGNAL (edition 331), NOISE (205) and CHOOSE VIOLENCE (180), all sold out; SIGNAL shows the glass box in a field of flowers. Some sources call 666 an upper limit rather than a fixed count. The 2017 Everydays-era landscapes 'Turnt' (a forested landscape) and 'Illuminated Path' are catalogued on artchive.com and could serve as secondary examples. The coindesk URL above is the canonical form of the search-result URL (cdn mirror: coindesk-coindesk-prod.cdn.arcpublishing.com/business/2021/03/23/trons-justin-sun-wins-6m-beeple-in-green-nft-auction/).",
       "works": [
         {
           "title": "The Tree of Knowledge",
@@ -820,9 +810,8 @@ TG.research = {
       ],
       "name_note": "mpkoz is the handle of Michael Kozlowski.",
       "practice": "Generative artist who brings painterly traditions such as still life into real-time 3D code (three.js).",
-      "fit": "strong",
       "status": "longlist",
-      "notes": "Chimera fits as a flower still life, though it is vanitas-style (with skulls), not ecological. A 'Precursor Chimera' also exists (Raster: https://www.raster.art/artwork/precursor-chimera-by-michael-kozlowski/about), not researched. At first, 25% of mint proceeds went to people fighting cancer; the work is linked to his mother's illness. No other nature-themed mpkoz series found.",
+      "notes": "A 'Precursor Chimera' also exists (Raster: https://www.raster.art/artwork/precursor-chimera-by-michael-kozlowski/about), not researched. At first, 25% of mint proceeds went to people fighting cancer; the work is linked to his mother's illness. No other nature-themed mpkoz series found.",
       "works": [
         {
           "title": "Chimera",
@@ -855,9 +844,8 @@ TG.research = {
       ],
       "name_note": "",
       "practice": "Berlin-based Dutch conceptual artist and early NFT pioneer (founder of left.gallery) who builds evolving generative systems using genetic algorithms.",
-      "fit": "weak",
       "status": "longlist",
-      "notes": "Included because the brief names 'Mutant Garden Seeders', but the fit is weak: the images are abstract geometric compositions, and 'garden' and 'mutant' are metaphors for evolutionary breeding (life-like media). It fits a section on artificial life and digital ecosystems better than one on depicted nature. Sources disagree on edition count (512, 512+1 or 513). The project grew out of 'Death Imitates Language' (2015) and Mutant Garden software v1 (2020).",
+      "notes": "Sources disagree on edition count (512, 512+1 or 513). The project grew out of 'Death Imitates Language' (2015) and Mutant Garden software v1 (2020).",
       "works": [
         {
           "title": "Mutant Garden Seeder",
@@ -910,7 +898,6 @@ TG.research = {
       ],
       "name_note": "Correct spelling: Primavera De Filippi (double p, double i).",
       "practice": "Legal scholar (CNRS/Harvard Berkman Klein) and artist who builds 'blockchain-based life forms': sculptures and tokens that fund, reproduce and evolve themselves through smart contracts.",
-      "fit": "strong",
       "status": "longlist",
       "notes": "Plantoid's start date is given as 2016 in the press found (some accounts place the concept in 2015). The Sotheby's lot URL slug reads 'plantoid-14', but the search summary describes the lot as from Plantoid 15. Check this on the lot page. Gazelli says she is realising a project for the 2026 Venice Biennale period.",
       "works": [
@@ -1000,9 +987,8 @@ TG.research = {
       ],
       "name_note": "Correct styling is 'Six N. Five', the studio name of Ezequiel Pini (Argentinian, based in Barcelona).",
       "practice": "Ezequiel Pini's studio makes serene, hyperreal 3D-rendered dreamscapes where architecture, clouds, plants and imagined natural forms meet, released as NFTs, prints and immersive exhibitions.",
-      "fit": "strong",
       "status": "longlist",
-      "notes": "Very strong thematic match: the whole practice is about rendered, idealised nature. Other works that came up but whose nature content was not checked: 'Among the Sky' (2023 film, sixnfive.com), 'Flow' (1/1, sold at Sotheby's Hong Kong, minted March 2023), 'Curiosity' (2022, unique). He also did a Daniel Arsham x Six N. Five NFT collection and an LG OLED display collaboration at Frieze New York 2023. I could only search, not open pages: WebFetch could not reach sixnfive.com and the other sites (they are outside the session's allowed network), so details come from search-result summaries. Work notes: Natural Balance: Drop went live 23 January 2023, according to the search summary of the Nifty Gateway page. The same summary named Base as the chain, which cannot be right for January 2023, so the chain is unconfirmed. | The Symphony of Nature: Run dates differ between ticketing sites (start 28 Sep or 28 Nov 2023, end up to Sep 2025). No official Moco text was opened.",
+      "notes": "Other works that came up but whose nature content was not checked: 'Among the Sky' (2023 film, sixnfive.com), 'Flow' (1/1, sold at Sotheby's Hong Kong, minted March 2023), 'Curiosity' (2022, unique). He also did a Daniel Arsham x Six N. Five NFT collection and an LG OLED display collaboration at Frieze New York 2023. I could only search, not open pages: WebFetch could not reach sixnfive.com and the other sites (they are outside the session's allowed network), so details come from search-result summaries. Work notes: Natural Balance: Drop went live 23 January 2023, according to the search summary of the Nifty Gateway page. The same summary named Base as the chain, which cannot be right for January 2023, so the chain is unconfirmed. | The Symphony of Nature: Run dates differ between ticketing sites (start 28 Sep or 28 Nov 2023, end up to Sep 2025). No official Moco text was opened.",
       "works": [
         {
           "title": "Natural Balance",
@@ -1053,9 +1039,8 @@ TG.research = {
       ],
       "name_note": "",
       "practice": "AI art pioneer (born in Dublin, raised in West Virginia, now based in France) known for GANs trained on landscape and nude paintings, who later studied at the art school in Saint-Nazaire and moved toward hybrid painting and AI processes.",
-      "fit": "medium",
       "status": "longlist",
-      "notes": "'Saint Nazaire' is a weak or unknown fit: I could not see the image or find a description of its subject, only the SuperRare magazine framing (1/1, first work after starting at Saint-Nazaire art school). Curators should look at it before including it. 'Gardening Software' is marked unverified because the visible snippet of the Gazelli page omits the artist's name; the bio fragment ('Dublin-born, West Virginia-raised', GANs) matches Barrat, and the page came up in a Barrat search, but the attribution should be checked. Barrat stopped selling NFTs (he left crypto art in 2021, citing environmental and speculative concerns), so lending or minting may be sensitive. The 2018 Christie's/SuperRare 'Lost Robbies' giveaway concerned the nude portraits, not nature works.",
+      "notes": "Curators should look at it before including it. 'Gardening Software' is marked unverified because the visible snippet of the Gazelli page omits the artist's name; the bio fragment ('Dublin-born, West Virginia-raised', GANs) matches Barrat, and the page came up in a Barrat search, but the attribution should be checked. Barrat stopped selling NFTs (he left crypto art in 2021, citing environmental and speculative concerns), so lending or minting may be sensitive. The 2018 Christie's/SuperRare 'Lost Robbies' giveaway concerned the nude portraits, not nature works.",
       "works": [
         {
           "title": "Saint Nazaire",
@@ -1120,9 +1105,8 @@ TG.research = {
       "as_listed": [
         "McCoy - Forrests"
       ],
-      "name_note": "'McCoy' most likely means the duo Jennifer & Kevin McCoy (Brooklyn). Kevin McCoy minted 'Quantum' (2014), widely called the first NFT, but the couple have made their work jointly since the 1990s, including the forest pieces. No work titled 'Forests' or 'Forrests' was found. The duo's own site describes 'Lens Organic' as 'Four videos collaging extreme camera views of a forrest', using the same misspelling as the brief, so the brief very likely means Lens Organic.",
+      "name_note": "Lukas confirmed: 'McCoy - Forrests' is Lens Organic by Jennifer & Kevin McCoy.",
       "practice": "Artist duo working across video, installation, plotter and machine drawing, and blockchain-based generative software that creates long-term 'ecosystems' for images to live, die and evolve.",
-      "fit": "medium",
       "status": "longlist",
       "notes": "Identity: the brief's 'McCoy – Forrests' is most likely 'Lens Organic' (2023) by Jennifer & Kevin McCoy, whose project page spells it 'forrest'. Confirm with whoever wrote the brief. Lens Organic does not appear to have been issued as an NFT; no platform or mint was found. Trees #4 is marked unverified because only its title, year, medium and price were seen in search snippets; it is not confirmed whether it depicts trees from camera data or comes with an NFT (some Machine Organic works ship with an ERC-721 token). Other items: 'Park Trees 06' (2020, ballpoint-pen machine drawing, on artnet Auctions), and 'Quantum' (2014) for historical context only, as it has no nature theme. mccoyspace.com, verse.works and news.artnet.com could not be opened from this session, so all details come from search-result snippets.",
       "works": [
@@ -1210,7 +1194,6 @@ TG.research = {
       ],
       "name_note": "Full name Michaël Zancan, a French generative artist. The correct title is 'Garden, Monoliths' (with a comma).",
       "practice": "French generative artist whose main subject is the tree; he builds plotter-like algorithmic drawings of trees, grass and lush landscapes, mostly on Tezos.",
-      "fit": "strong",
       "status": "longlist",
       "notes": "Garden, Monoliths is on fxhash (Tezos), not Art Blocks. Raster's link for 'A Bugged Forest' is a numeric artwork ID; I matched it from the search summary but did not open the page. Also a collaboration with Yazid: 'Kindergarden Monuments' (Raster). Zancan's 2025 bitforms solo show 'Tree_Line' covers his work on the tree.",
       "works": [
@@ -1302,11 +1285,10 @@ TG.research = {
       "as_listed": [
         "Lorena Mills - Gifs"
       ],
-      "name_note": "'Lorena Mills' is almost certainly a misspelling of Lorna Mills, the Toronto-based net.art and GIF artist (represented by TRANSFER Gallery, Ellephant and DAM Gallery), often called 'the Queen of the animated GIF'. The brief's 'Gifs' matches her medium. No artist named Lorena Mills turned up. High confidence.",
+      "name_note": "Lukas confirmed: 'Lorena Mills' is Lorna Mills, the Canadian GIF artist.",
       "practice": "Canadian net.art pioneer who makes chaotic animated-GIF collages and installations from footage found on YouTube, Reddit, 4chan and elsewhere, often packed with animals, landscapes and sunsets.",
-      "fit": "strong",
       "status": "longlist",
-      "notes": "The brief only says 'Gifs', so any of these could be what the curators meant. Caughtinmoment is the best fit for 'nature's representation online'. Related works not added here: 'Colour Fields' (ADAF 2016) and 'Abrupt Diplomat' (2015, transmediale). Her 2024 objkt.one show at Paris Photo is a sign of recent on-chain (Tezos) activity, and her Verse page exists. I could not open pages directly; details come from search-result summaries.",
+      "notes": "The brief only says 'Gifs', so any of these could be what the curators meant. Related works not added here: 'Colour Fields' (ADAF 2016) and 'Abrupt Diplomat' (2015, transmediale). Her 2024 objkt.one show at Paris Photo is a sign of recent on-chain (Tezos) activity, and her Verse page exists. I could not open pages directly; details come from search-result summaries.",
       "works": [
         {
           "title": "Mountain Light/Time",
@@ -1393,9 +1375,8 @@ TG.research = {
       ],
       "name_note": "Not to be confused with Katherine Fraser, the Philadelphia oil painter (Paradigm Gallery).",
       "practice": "Brooklyn-based digital painter and software designer who paints in Figma and Keynote, studies Sogetsu ikebana, and makes flowers the recurring subject of her digital work. She was one of the first fifty artists on Foundation.",
-      "fit": "strong",
       "status": "longlist",
-      "notes": "Strong floral match. Rhizome notes flowers recur in her dynamic desktop wallpapers and Keynote paintings. She is also on Verse and Load Gallery, was in the 'Temporary Highs' group show at bitforms, and was on the New Museum's 2021 NFT Aesthetics panel. A generative 'Timelapse' (2021) mentioned in a CMU course blog was not checked. Details come from search summaries. Work notes: ∞ bouquet ∞ toss ∞ feeling, it's just for you: Exact punctuation of the title varies between sources. End date differs too: 25 July (Art Licks) or 22 August 2021 (Rhizome). | Magic Move 4: The work itself is verified. Its floral content rests on one search-result summary of the Times Square Arts page.",
+      "notes": "Rhizome notes flowers recur in her dynamic desktop wallpapers and Keynote paintings. She is also on Verse and Load Gallery, was in the 'Temporary Highs' group show at bitforms, and was on the New Museum's 2021 NFT Aesthetics panel. A generative 'Timelapse' (2021) mentioned in a CMU course blog was not checked. Details come from search summaries. Work notes: ∞ bouquet ∞ toss ∞ feeling, it's just for you: Exact punctuation of the title varies between sources. End date differs too: 25 July (Art Licks) or 22 August 2021 (Rhizome). | Magic Move 4: The work itself is verified. Its floral content rests on one search-result summary of the Times Square Arts page.",
       "works": [
         {
           "title": "ikebananana2 – sketchbook",
@@ -1462,7 +1443,6 @@ TG.research = {
       ],
       "name_note": "Sofia Crespo also works as half of Entangled Others, a studio founded in 2020 with Feileacan Kirkbride McCormick. Credit solo works to Sofia Crespo and duo works to Entangled Others (Sofia Crespo & Feileacan McCormick).",
       "practice": "Argentine artist based in Lisbon who uses neural networks to generate speculative organisms, insects, marine life and ecosystems, looking at how AI represents (and fails to represent) biodiversity.",
-      "fit": "strong",
       "status": "longlist",
       "notes": "Credit 'Beneath the Neural Waves' to Entangled Others (Crespo & McCormick), not to Crespo alone. Other Entangled Others works: 'Chimerical Stories' (Verse, jellyfish metamorphosis), 'hybrid ecosystems' (2022, Verse), 'random access pond' (Le Random). Recent solo show 'Synthetic Natures' at Chanel Nexus Hall, Tokyo, 2025. Crespo's 2023 1/1 'shared moments of observation' sold at Sotheby's. I did not confirm a Photographers' Gallery showing of Critically Extant from the snippets (a page exists at thephotographersgallery.org.uk/node/2257, but no date was seen).",
       "works": [
@@ -1559,7 +1539,6 @@ TG.research = {
       ],
       "name_note": "Also works under the names Neural Bricolage / @NeuralBricolage and Glagolista (SuperRare).",
       "practice": "Visual artist and software engineer (formerly at Bell Labs) who trains small GANs on her own photographs, sketches and drawings, often of flowers, food, vases and landscapes, to make painterly 'neural bricolage'.",
-      "fit": "medium",
       "status": "longlist",
       "notes": "Flowers, vases and food are recurring subjects in Sarin's GAN work (per Kate Vass / Artnome / SuperRare editorial), but I could not confirm a titled flower still-life piece from search results alone. Her NVIDIA AI Art Gallery page is titled 'Plankton Bay, Shallow Waters', a possible marine work, but it was not checked. Also 'gen2GAN' with Dmitri Cherniak (not nature). Verse pages could not be opened directly (domain blocked), so the year for 'Leaves of Manifold' is missing.",
       "works": [
@@ -1610,9 +1589,8 @@ TG.research = {
       ],
       "name_note": "",
       "practice": "British-born painter (1928-2016) who from the early 1970s wrote and developed AARON, widely regarded as the earliest AI program for artmaking, which over decades moved from abstraction to figures in jungle foliage and finally to plant-dominated compositions.",
-      "fit": "strong",
       "status": "longlist",
-      "notes": "Brief's '0309-06 (through Verisart)' confirmed as 0309-06 (i23-3370), 2003. The title follows Cohen's YYMM-NN file naming, so 0309 = September 2003, matching the 'dated September 2003' on the print. Verisart context: Certificate of Authenticity Plus (COA+), NFC tag linked and printed certificate issued on 4 Oct 2024, certified by the Harold Cohen Trust, presented by Gazelli Art House, offered by Sotheby's in 2024; Verisart record lists Gazelli Art House as owner. Caveats: (1) I could not open the Sotheby's or Verisart pages directly (those hosts are blocked in this session's network settings), so details come from search-result extracts. (2) I did not confirm what 0309-06 actually depicts; the plant link rests on Verisart's description of the 2002-2004 era (potted plants), so check the image. (3) The print is numbered 1/3, but the Trust reportedly has no evidence that 2/3 and 3/3 were printed. Gazelli also showed Cohen with Verisart COA+ at Art Basel Zero 10 (June 2026). The Whitney retrospective 'Harold Cohen: AARON' (2024) showed 2007 plant-generating software projected live, which would be a strong option if a live/software piece is wanted.",
+      "notes": "Brief's '0309-06 (through Verisart)' confirmed as 0309-06 (i23-3370), 2003. The title follows Cohen's YYMM-NN file naming, so 0309 = September 2003, matching the 'dated September 2003' on the print. Verisart context: Certificate of Authenticity Plus (COA+), NFC tag linked and printed certificate issued on 4 Oct 2024, certified by the Harold Cohen Trust, presented by Gazelli Art House, offered by Sotheby's in 2024; Verisart record lists Gazelli Art House as owner. Caveats: (1) I could not open the Sotheby's or Verisart pages directly (those hosts are blocked in this session's network settings), so details come from search-result extracts. (2) I did not confirm what 0309-06 actually depicts; the plant link rests on Verisart's description of the 2002-2004 era (potted plants), so check the image. (3) The print is numbered 1/3, but the Trust reportedly has no evidence that 2/3 and 3/3 were printed. Gazelli also showed Cohen with Verisart COA+ at Art Basel Zero 10 (June 2026).",
       "works": [
         {
           "title": "0309-06 (i23-3370)",
@@ -1702,9 +1680,8 @@ TG.research = {
       ],
       "name_note": "No work titled 'picknick' or 'Picnic' was found. The brief probably means 'World Upstream' (2023-2024), a simulation of a never-ending picnic by a hydropower dam.",
       "practice": "Lisbon-based Romanian artist and programmer making real-time simulations and generative/plotter works about landscapes, infrastructure and the commodification of nature.",
-      "fit": "strong",
       "status": "longlist",
-      "notes": "Both works fit the theme very well. One portfolio describes World Upstream as 'in progress' (2023); the artist site and Arab Bank treat it as finished. His 'Delicate Chaos' plotter series (Plottables) is abstract and not nature-related.",
+      "notes": "Lukas confirmed: 'picknick' is World Upstream. One portfolio describes World Upstream as 'in progress' (2023); the artist site and Arab Bank treat it as finished. His 'Delicate Chaos' plotter series (Plottables) is abstract and not nature-related.",
       "works": [
         {
           "title": "World Upstream",
@@ -1755,7 +1732,6 @@ TG.research = {
       ],
       "name_note": "BLOOM is a design-led digital art/NFT collective of which Lisser is a founding member (others include Hannes Hummel, Stephan Duquesnoy and Shavonne Wong). It is not a single artwork. Sources differ on whether he is UK- or Netherlands-based.",
       "practice": "3D and point-cloud artist who scans flowers, trees and natural forms and dissolves them through simulation to reflect on decay in a digital world.",
-      "fit": "strong",
       "status": "longlist",
       "notes": "No NFT platform could be confirmed for Surface Tension; he has minted on Zora (from Feb 2021), Foundation, Manifold and Transient Labs ('Mirror 404', 2025). He is included in the book 'Neo Botanica: An Atlas of Artificially Generated Flora'. Other series ('Points in Time', 2023 on Manifold; 'Cloudburst') may also involve scanned nature, but their content was not confirmed. If the brief means the BLOOM collective as a whole, research it separately (thisisbloom.xyz).",
       "works": [
@@ -1806,9 +1782,8 @@ TG.research = {
       ],
       "name_note": "The brief's 'Touch Grass' most likely refers to 'gentle automata (touching grass)' (2023). No work titled exactly 'Touch Grass' was found.",
       "practice": "Berlin-based artist and software developer working with blockchains and the peer-to-peer web, often on care, mortality and artificial life.",
-      "fit": "strong",
       "status": "longlist",
-      "notes": "The touching-grass work fits the exhibition title very well. A visie.io page titled 'touch grass 2025' turned up in search, but it could not be opened or linked to Friend, so it is not included. Lifeforms is a medium/weak fit (artificial life, not nature imagery). The follow-up 'Memoryforms' is an on-chain memorial to dead Lifeforms.",
+      "notes": "Lukas confirmed: the brief's 'touch grass' is gentle automata (touching grass). A visie.io page titled 'touch grass 2025' turned up in search, but it could not be opened or linked to Friend, so it is not included. The follow-up 'Memoryforms' is an on-chain memorial to dead Lifeforms.",
       "works": [
         {
           "title": "gentle automata (touching grass)",
@@ -1876,7 +1851,6 @@ TG.research = {
       ],
       "name_note": "",
       "practice": "Anonymous US AI-collaborative artist working across AI images, painting, collage and photography; collected by LACMA and sold at Sotheby's and Christie's.",
-      "fit": "weak",
       "status": "longlist",
       "notes": "Researched by CLAUDE in a second pass, search results only. No titled nature or flower work confirmed. She talks about time alone in nature as a child, but the work is figurative and dreamlike. An Avant Arte print 'I beg your Garden' (girl with a snail in a village surrounded by flowers) turned up without a confirmed artist credit; check whether it is hers before using it.",
       "works": []
@@ -1889,10 +1863,29 @@ TG.research = {
       ],
       "name_note": "Listed as 'Holly Herdnon and Matt Dryhurst'; the correct names are Holly Herndon and Mat Dryhurst (one 't').",
       "practice": "Berlin-based duo working on AI, voice models (Holly+), consent for training data (Spawning) and collectively trained models.",
-      "fit": "none",
       "status": "longlist",
-      "notes": "Researched by CLAUDE in a second pass, search results only. Their main recent works, xhairymutantx (Whitney Biennial 2024) and The Call (Serpentine, 2024-25, choral AI models), are about voice, identity and training data, not nature. The only forest link found is the origin story of an older sound piece, 'everywhere and nowhere'. Keep only if the show takes a wider view of 'nature' (human nature, the commons).",
-      "works": []
+      "notes": "Lukas pointed to their early OpenAI images full of nature iconography. That is Infinite Images, made with the first DALL-E model (not GPT). Other work (xhairymutantx, The Call) is about voice and identity.",
+      "works": [
+        {
+          "title": "Infinite Images",
+          "year": "2021-2022",
+          "medium": "Images made with OpenAI's first DALL-E research model, extended outward tile by tile; 682 works",
+          "where": "OpenAI commission; daily.xyz; Verse",
+          "nature": [
+            "landscape",
+            "flora"
+          ],
+          "why": "Starts from an idyllic mountain landscape and grows into a quilt of horizons, one of the first pictures of nature made by a text-to-image model.",
+          "named_in_brief": false,
+          "verified": true,
+          "sources": [
+            "https://daily.xyz/exhibition/10062",
+            "https://www.yewknee.com/blog/herndon-dryhurst-studio-infinite-images-and-the-latent-camera"
+          ],
+          "id": "W078",
+          "status": "candidate"
+        }
+      ]
     },
     {
       "id": "A29",
@@ -1902,9 +1895,8 @@ TG.research = {
       ],
       "name_note": "",
       "practice": "Kalmyk-American poet and language artist who works with handwriting, binary code and her AI alter ego Technelegy, including 'A LIVING POEM' at MoMA (2025-26).",
-      "fit": "medium",
       "status": "longlist",
-      "notes": "Analog Binary Code: plant intelligence is the best fit and a very direct statement of the code-versus-nature theme. Year of the Verse triptych not found. 'The Wind on My Lips...' is verified false only because I could not confirm the content, not the existence. Also seen: 'Humanature' (2020 video, 11 sec, Turner Carroll Gallery) with no description, and 'Cursive Binary: I am a modern dryad' (2021, acrylic on canvas), not researched. A LIVING POEM (MoMA, Sept 2025 to Mar 2026) is not nature-themed despite being in the Agnes Gund Garden Lobby.",
+      "notes": "Year of the Verse triptych not found. 'The Wind on My Lips...' is verified false only because I could not confirm the content, not the existence. Also seen: 'Humanature' (2020 video, 11 sec, Turner Carroll Gallery) with no description, and 'Cursive Binary: I am a modern dryad' (2021, acrylic on canvas), not researched. A LIVING POEM (MoMA, Sept 2025 to Mar 2026) is not nature-themed despite being in the Agnes Gund Garden Lobby.",
       "works": [
         {
           "title": "Analog Binary Code: plant intelligence",
@@ -1923,7 +1915,7 @@ TG.research = {
             "https://artbasel.com/stories/sasha-stiles-how-technology-renews-relationship-with-storytelling",
             "https://en.wikipedia.org/wiki/Sasha_Stiles"
           ],
-          "id": "W078",
+          "id": "W079",
           "status": "candidate"
         },
         {
@@ -1942,7 +1934,7 @@ TG.research = {
             "https://verse.works/artworks/d32c5052-48b1-40de-9c7e-313bf98a9223/1",
             "https://verse.works/artworks/d32c5052-48b1-40de-9c7e-313bf98a9223/3"
           ],
-          "id": "W079",
+          "id": "W080",
           "status": "candidate"
         },
         {
@@ -1953,14 +1945,13 @@ TG.research = {
           "nature": [
             "weather"
           ],
-          "why": "The title points to bodily experience of wind and weather, but I could not confirm the content, so the fit is uncertain.",
           "named_in_brief": false,
           "verified": false,
           "sources": [
             "https://www.katevassgalerie.com/news/museum-of-art-light-acquires-sasha-stiles",
             "https://infiniteobjects.com/products/cadaf-stiles-the-wind-on-my-lips"
           ],
-          "id": "W080",
+          "id": "W081",
           "status": "candidate"
         }
       ]
@@ -1973,7 +1964,6 @@ TG.research = {
       ],
       "name_note": "Pseudonymous Singaporean AI artist (identity not disclosed).",
       "practice": "Singaporean artist who uses generative AI to build the 'Auntieverse', a satirical world of older Asian women dealing with community, labour, consumerism, ageing and ecology.",
-      "fit": "medium",
       "status": "longlist",
       "notes": "Sources disagree on Auntlantis's structure: Wikipedia says a five-part video series, HOFA says a three-part AI film series. Year not confirmed (Lumen 2024 finalist, so 2024 or earlier). I found no garden or plant chapter of the Auntieverse. Other chapters (Factory, Auntique) are not nature-themed. 'Chapter No 3 Factory 0201' was offered at Sotheby's Contemporary Discoveries 2025.",
       "works": [
@@ -1993,7 +1983,7 @@ TG.research = {
             "https://thehouseoffineart.com/artworks/6399/",
             "https://www.lumenprize.com/impact-award-finalists-2024/niceaunties"
           ],
-          "id": "W081",
+          "id": "W082",
           "status": "candidate"
         }
       ]
@@ -2006,9 +1996,8 @@ TG.research = {
       ],
       "name_note": "Correct spelling is Pindar Van Arman (not 'Van Armin').",
       "practice": "American artist and roboticist who builds AI painting robots (cloudPainter, bitPaintr, CrowdPainter) that paint with physical brushes, mostly portraits and abstract faces.",
-      "fit": "weak",
       "status": "longlist",
-      "notes": "I found no landscape, flower or garden series by Van Arman. His NFT and auction work (SuperRare, Sotheby's 'octo primeGANg' 2023, Christie's 'Augmented Intelligence', 'The First Sparks of Artificial Creativity', 'Reflection') is portraiture or self-reflexive. The Cezanne piece's exact title is unclear; sources describe it rather than naming it. A weak fit, best kept only if the curators want the robot-painter angle.",
+      "notes": "I found no landscape, flower or garden series by Van Arman. His NFT and auction work (SuperRare, Sotheby's 'octo primeGANg' 2023, Christie's 'Augmented Intelligence', 'The First Sparks of Artificial Creativity', 'Reflection') is portraiture or self-reflexive. The Cezanne piece's exact title is unclear; sources describe it rather than naming it.",
       "works": [
         {
           "title": "Reimagining of Paul Cezanne's 'Houses at L'Estaque' (cloudPainter)",
@@ -2026,7 +2015,7 @@ TG.research = {
             "https://newatlas.com/robot-art-2018-competition-winners-gallery/55548",
             "https://pindar-vanarman-xjyl.squarespace.com/feedback/tag/cezanne"
           ],
-          "id": "W082",
+          "id": "W083",
           "status": "candidate"
         }
       ]
@@ -2039,7 +2028,6 @@ TG.research = {
       ],
       "name_note": "",
       "practice": "Ohio State artist and researcher (1922-2022), often called the 'father of computer art', who made some of the first computer drawings and animations in the 1960s.",
-      "fit": "medium",
       "status": "longlist",
       "notes": "Hummingbird is confirmed: 1967, with James Shaffer, won an award at the 4th International Experimental Film Competition in Brussels, bought by MoMA. Runtime is given as 10 or 12 min depending on source. Some Ohio State archive items are dated 1968, so exact archive titles should be checked on the archive pages. I found no tree, leaf or flower works. A 1986 SIGGRAPH entry 'Hummingbirds' exists. NFT: 'Face of Change' was auctioned at Sotheby's (not nature-related). Other nature-adjacent titles seen but not researched: 'Birds in a Hat' (digitalartarchive.at/database/work/4939), 'Origami Swallows' (history.siggraph.org/?p=27667).",
       "works": [
@@ -2060,7 +2048,7 @@ TG.research = {
             "https://digitalartarchive.at/database/work/4930",
             "https://sciencenode.org/spotlight/charles-csuris-hummingbird-gives-computer-animation-its-wings.php"
           ],
-          "id": "W083",
+          "id": "W084",
           "status": "candidate"
         },
         {
@@ -2077,7 +2065,7 @@ TG.research = {
           "sources": [
             "https://csuriproject.osu.edu/index.php/Browse/objects/view/images/key/60c5a24b86e0d8619bc20f1a365e6f9f/sort/Identifier"
           ],
-          "id": "W084",
+          "id": "W085",
           "status": "candidate"
         },
         {
@@ -2095,7 +2083,7 @@ TG.research = {
             "https://csuriproject.osu.edu/index.php/Detail/objects/751",
             "https://csuriproject.osu.edu/index.php/Detail/objects/748"
           ],
-          "id": "W085",
+          "id": "W086",
           "status": "candidate"
         }
       ]
@@ -2108,7 +2096,6 @@ TG.research = {
       ],
       "name_note": "Usually credited as Alexander Reben ('Alex' is a common short form; same person). Roboticist-artist, OpenAI's first artist-in-residence.",
       "practice": "MIT-trained roboticist and artist whose works probe the boundary between humans and machines using AI, robotics and machine-generated text and images.",
-      "fit": "medium",
       "status": "longlist",
       "notes": "No other clearly nature-themed works found. 'The Final Resting Place of the Queen Bee' turned up with an AI-written text mentioning bees and pollination, but I could not confirm its form or year, so I left it out. Reben had a 2024 retrospective at the Crocker Art Museum (artnet).",
       "works": [
@@ -2130,7 +2117,7 @@ TG.research = {
             "https://www.cjamesgallery.com/fairs/strangerevolution",
             "https://gizmodo.com/bob-ross-processed-by-a-neural-network-is-the-most-soot-1794080760"
           ],
-          "id": "W086",
+          "id": "W087",
           "status": "candidate"
         }
       ]
@@ -2143,9 +2130,8 @@ TG.research = {
       ],
       "name_note": "Paris-based collective of Hugo Caselles-Dupré, Pierre Fautrel and Gauthier Vernier.",
       "practice": "French AI art collective known for 'Portrait of Edmond de Belamy' (2018), the first GAN-made artwork sold at a major auction (Christie's), who have since trained models on ukiyo-e, African masks and cave painting.",
-      "fit": "medium",
       "status": "longlist",
-      "notes": "Electric Dreams of Ukiyo has the strongest nature link (landscapes); Parietal Burners for fauna. Dates for Parietal Burners differ (Obvious lists 2020, #3 made live at the 2021 Urban Art Fair). A Kate Vass Galerie blog post titled 'Speciesism by Obvious Group' turned up in search but I could not research it (search limit reached); it may be animal-themed and worth checking. Edmond de Belamy is not nature-related.",
+      "notes": "Dates for Parietal Burners differ (Obvious lists 2020, #3 made live at the 2021 Urban Art Fair). Edmond de Belamy is not nature-related.",
       "works": [
         {
           "title": "Electric Dreams of Ukiyo (series; e.g. The Dormant Lake, The Dawn Lagoon, Chieko of the Catfish Bay, Hayao of the Memories Glacier)",
@@ -2166,7 +2152,7 @@ TG.research = {
             "https://www.sothebys.com/en/auctions/ecatalogue/2019/contemporary-art-day-n10150/lot.462.html",
             "https://pmc.ncbi.nlm.nih.gov/articles/PMC7660416"
           ],
-          "id": "W087",
+          "id": "W088",
           "status": "candidate"
         },
         {
@@ -2185,7 +2171,7 @@ TG.research = {
             "https://obvious-art.com/portfolio/parietal-burner-3/",
             "https://news.artnet.com/art-world/obvious-cave-art-graffiti-mashup-1928105"
           ],
-          "id": "W088",
+          "id": "W089",
           "status": "candidate"
         }
       ]
@@ -2198,7 +2184,6 @@ TG.research = {
       ],
       "name_note": "",
       "practice": "Haudenosaunee (Seneca-Cayuga) artist and technologist who connects Indigenous knowledge, AI and climate/water justice; founder of the AI Climate Justice Lab and the Talk to Me About Water collective.",
-      "fit": "strong",
       "status": "longlist",
       "notes": "She has a Feral File artist page (feralfile.com/artists/amelia-winger-bearskin-t1e), but the specific Feral File work could not be identified; it may be a version of the Midnight/Sky works. The Sky/World project received a Sundance Art of Practice Fellowship (2022). The year for Midnight & To Body was not confirmed.",
       "works": [
@@ -2219,7 +2204,7 @@ TG.research = {
             "https://whitney.org/exhibitions/amelia-winger-bearskin",
             "https://whitneymedia.org/assets/generic_file/2293/Amelia_Winger-Bearskin_-_Sunrise_Sunset_Announcement.pdf"
           ],
-          "id": "W089",
+          "id": "W090",
           "status": "candidate"
         },
         {
@@ -2238,7 +2223,7 @@ TG.research = {
           "sources": [
             "https://kadist.org/work/i-would-like-to-be-midnight-i-would-like-to-be-sky/"
           ],
-          "id": "W090",
+          "id": "W091",
           "status": "candidate"
         },
         {
@@ -2257,7 +2242,7 @@ TG.research = {
           "sources": [
             "https://tropeztropez.de/en/amelia-winger-bearskin-en/"
           ],
-          "id": "W091",
+          "id": "W092",
           "status": "candidate"
         },
         {
@@ -2274,7 +2259,7 @@ TG.research = {
           "sources": [
             "https://nxtmuseum.com/artist/midnight-to-body-amelia-winger-bearskin"
           ],
-          "id": "W092",
+          "id": "W093",
           "status": "candidate"
         }
       ]
@@ -2287,9 +2272,8 @@ TG.research = {
       ],
       "name_note": "",
       "practice": "US artist and AI-art pioneer whose 'Dreamscapes' run vast stitched landscape photographs through a customised DeepDream engine to make large-scale prints, video and NFTs.",
-      "fit": "strong",
       "status": "longlist",
-      "notes": "Strong fit: almost all of the Dreamscapes are landscapes. Exact titles of the individual Capability Brown works (for example the Blenheim piece) were not seen; get them from Robilant+Voena. The Central Park show's year and format were not confirmed (verified=false). No Nifty Gateway listing was found. Ambrosi stresses that DeepDream is not an image generator but transforms his own photographs.",
+      "notes": "Exact titles of the individual Capability Brown works (for example the Blenheim piece) were not seen; get them from Robilant+Voena. The Central Park show's year and format were not confirmed (verified=false). No Nifty Gateway listing was found. Ambrosi stresses that DeepDream is not an image generator but transforms his own photographs.",
       "works": [
         {
           "title": "AI and the Landscapes of Capability Brown (Dreamscapes series)",
@@ -2309,7 +2293,7 @@ TG.research = {
             "https://www.robilantvoena.com/news/rv-launch-unique-nfts-daniel-ambrosi-artworks",
             "https://ocula.com/art-galleries/robilant-voena-london/exhibitions/daniel-ambrosi-ai-and-the-landscapes-of-capab/"
           ],
-          "id": "W093",
+          "id": "W094",
           "status": "candidate"
         },
         {
@@ -2327,7 +2311,7 @@ TG.research = {
           "sources": [
             "https://www.1stdibs.com/nft/art/mining-nightfall-quintet-cube/id-n_A9W6l3UVHm"
           ],
-          "id": "W094",
+          "id": "W095",
           "status": "candidate"
         },
         {
@@ -2347,7 +2331,7 @@ TG.research = {
             "https://issuu.com/robilantvoena/docs/daniel_ambrosi_central_park",
             "https://www.meer.com/en/100248-central-park"
           ],
-          "id": "W095",
+          "id": "W096",
           "status": "candidate"
         }
       ]
@@ -2360,9 +2344,8 @@ TG.research = {
       ],
       "name_note": "",
       "practice": "New Zealand artist who uses machine learning and 3D physics simulations (fluids, waves, natural forces) to make 'data sculptures' and NFTs about how we perceive nature.",
-      "fit": "strong",
       "status": "longlist",
-      "notes": "Strong thematic fit: his whole practice is about natural forces, physiology and how we perceive nature, including physics-simulated reimaginings of Van Gogh and Monet (titles not confirmed). His first NFT came out on SuperRare in Sept 2021 and dealt with how our physiology perceives nature (title not confirmed). The NVIDIA AI Art Gallery has an artist page. A 2026 exhibition, 'The Infinite Constant Front', at Eden Park, Auckland, is about nature versus chaos (theurbanlist.com, svconline.com). 'Cacophony in Placidity' is marked unverified because only its title, year and medium were seen. The web-search budget ran out before I could confirm titles on SuperRare or the artist's site.",
+      "notes": "His first NFT came out on SuperRare in Sept 2021 and dealt with how our physiology perceives nature (title not confirmed). The NVIDIA AI Art Gallery has an artist page. A 2026 exhibition, 'The Infinite Constant Front', at Eden Park, Auckland, is about nature versus chaos (theurbanlist.com, svconline.com). 'Cacophony in Placidity' is marked unverified because only its title, year and medium were seen. The web-search budget ran out before I could confirm titles on SuperRare or the artist's site.",
       "works": [
         {
           "title": "The Genesis Chaos I",
@@ -2381,7 +2364,7 @@ TG.research = {
             "https://thehouseoffineart.com/artworks/5028",
             "https://thehouseoffineart.com/artists/271-jesse-woolston/works/5028"
           ],
-          "id": "W096",
+          "id": "W097",
           "status": "candidate"
         },
         {
@@ -2398,7 +2381,7 @@ TG.research = {
           "sources": [
             "https://thehouseoffineart.com/artworks/5029"
           ],
-          "id": "W097",
+          "id": "W098",
           "status": "candidate"
         }
       ]
@@ -2411,9 +2394,8 @@ TG.research = {
       ],
       "name_note": "Not to be confused with Scot Eaton, the comic-book artist (Spider-Man).",
       "practice": "Artist, anatomist and technologist who trains custom neural networks ('Assistants') on his own figure photography to turn drawings into photographic human bodies and sculptural forms.",
-      "fit": "none",
       "status": "longlist",
-      "notes": "No nature-related work found. His AI practice is about the human figure: Artist+AI: Figures & Form (Somerset House, 2019), Humanity (Fall of the Damned) after Rubens, Entangled II (2019 video of bodies), Caffeinated Diversions (NFTs 2023), Lens Series. A loose source says he collaborated with Sofia Crespo / Entangled Others, but this is unconfirmed and that work's subject is unknown. Unless the curators have a specific work in mind, he does not fit 'Touch Grass'.",
+      "notes": "No nature-related work found. His AI practice is about the human figure: Artist+AI: Figures & Form (Somerset House, 2019), Humanity (Fall of the Damned) after Rubens, Entangled II (2019 video of bodies), Caffeinated Diversions (NFTs 2023), Lens Series. A loose source says he collaborated with Sofia Crespo / Entangled Others, but this is unconfirmed and that work's subject is unknown.",
       "works": []
     },
     {
@@ -2424,7 +2406,6 @@ TG.research = {
       ],
       "name_note": "Also written Song Ting (Chinese name order). Not to be confused with Walasse Ting or Ding Yanyong, whose bird-and-flower works show up in the same searches.",
       "practice": "Chinese AI artist and science-fiction writer, author of what NVIDIA calls China's first GAN-generated artwork sold by a traditional auction house; she often reworks the classical opera 'The Peony Pavilion' and Chinese flower imagery with AI.",
-      "fit": "medium",
       "status": "longlist",
       "notes": "The 2025 works come from the 'ICME AIART GALLERY 2025' Google Sites gallery, a conference AI art gallery rather than a commercial platform. 'In A Peony's Dream' is confirmed only as a credited title with no description. The Peony Pavilion work's medium and on-chain status rest on press and a Medium post; the Medium source is less reliable. She also runs 'Ting Museum', an online NFT display platform. Also profiled in NVIDIA AI Art Gallery (nvidia.com/en-us/research/ai-art-gallery/artists/ting-song/).",
       "works": [
@@ -2444,7 +2425,7 @@ TG.research = {
           "sources": [
             "https://sites.google.com/view/2025aiart-gallery/artworks/roomc/c08"
           ],
-          "id": "W098",
+          "id": "W099",
           "status": "candidate"
         },
         {
@@ -2461,7 +2442,7 @@ TG.research = {
           "sources": [
             "https://sites.google.com/view/2025aiart-gallery/artworks/roomf/f10"
           ],
-          "id": "W099",
+          "id": "W100",
           "status": "candidate"
         },
         {
@@ -2473,7 +2454,7 @@ TG.research = {
             "flora",
             "fauna"
           ],
-          "why": "Based on the classic opera 'The Peony Pavilion'; the Chinese title on the Medium post references 'butterflies in love with flowers'. Flower and insect imagery appears only through the literary source, so the fit is weaker.",
+          "why": "Based on the classic opera 'The Peony Pavilion'; the Chinese title on the Medium post references 'butterflies in love with flowers'.",
           "named_in_brief": false,
           "verified": true,
           "sources": [
@@ -2481,7 +2462,7 @@ TG.research = {
             "https://www.sixthtone.com/news/1009835/poetry-bots-and-psychedelic-buddhas-meet-chinas-top-nft-artist",
             "https://medium.com/cortexlabs/the-artwork-%E7%89%A1%E4%B8%B9%E4%BA%ADr%C3%AAve%E4%B9%8B%E6%A0%87%E7%9B%AE%E8%9D%B6%E6%81%8B%E8%8A%B1-the-info-techs-penetration-of-song-ting-in-collaboration-with-136135f713fd"
           ],
-          "id": "W100",
+          "id": "W101",
           "status": "candidate"
         },
         {
@@ -2498,54 +2479,19 @@ TG.research = {
           "sources": [
             "https://sites.google.com/view/2025aiart-gallery/artworks/roomb"
           ],
-          "id": "W101",
-          "status": "candidate"
-        }
-      ]
-    },
-    {
-      "id": "A40",
-      "artist": "Vanessa Rosa",
-      "as_listed": [
-        "Vanessa Rosa"
-      ],
-      "name_note": "Rio-born, US-based Brazilian artist (Instagram @va2rosa). Not an on-chain generative artist as far as I could find; if the curators meant a Brazilian generative artist working with plants on Art Blocks, that would be Monica Rizzolli (Fragments of an Infinite Field).",
-      "practice": "Brazilian muralist and ceramicist whose azulejo-inspired tile works and AI-animated ceramic figures ('Little Martians') tell speculative stories about history and possible futures.",
-      "fit": "weak",
-      "status": "longlist",
-      "notes": "No clearly nature-themed digital work found. Side note: her largest azulejo-series mural, at Pioneer Works in Brooklyn, was eventually overgrown by garden plants, by her own account (star-revue.com/how-pioneer-works-got-its-blue-fence-by-vanessa-rosa/). It is physical, not digital, but makes a nice anecdote. Consider whether she is the intended artist; the theme would fit Monica Rizzolli much better.",
-      "works": [
-        {
-          "title": "Little Martians (incl. 'Little Martians: Historian of Consciousness', 2025)",
-          "year": "2025",
-          "medium": "Transmedia: hand-made ceramic sculptures, 3D scanned and turned into AI characters/agents (eden.art LoRA models, AI animation)",
-          "where": "NVIDIA AI Art Gallery; CVPR AI Art (thecvf-art.com); NeurIPS 2025 poster 'Little Martians: From Desert Clay to Generative Agents' (with Gene Kogan); Little Martians World Substack",
-          "nature": [
-            "other: clay/earth material; characters as 'seeds of Earth's life across the cosmos'"
-          ],
-          "why": "Earth's clay turned into digital beings imagined as seeds carrying Earth's life into the cosmos; asks how biological and artificial systems might co-evolve, a loose nature link.",
-          "named_in_brief": false,
-          "verified": true,
-          "sources": [
-            "https://www.nvidia.com/en-us/research/ai-art-gallery/artists/vanessa-rosa/",
-            "https://thecvf-art.com/project/vanessa-rosa/",
-            "https://neurips.cc/virtual/2025/129261",
-            "https://littlemartians.substack.com"
-          ],
           "id": "W102",
           "status": "candidate"
         }
       ]
     },
     {
-      "id": "A41",
+      "id": "A40",
       "artist": "Lillian Schwartz",
       "as_listed": [
         "Lillian Schwartz"
       ],
       "name_note": "",
       "practice": "Pioneer of computer-generated film and art (1927-2024), resident artist at Bell Labs from the late 1960s, known for films such as Pixillation (1970), UFOs (1971) and Mutations (1972).",
-      "fit": "weak",
       "status": "longlist",
       "notes": "Most of Schwartz's films are abstract or geometric. Alae is the only clearly nature-based work I found. Papillons (1973; 'butterflies') appears in screening lists, but I found no description of its imagery, so I left it out. No NFTs or on-chain works found. Her estate's collection went to The Henry Ford.",
       "works": [
@@ -2571,40 +2517,37 @@ TG.research = {
       ]
     },
     {
-      "id": "A42",
+      "id": "A41",
       "artist": "Botto",
       "as_listed": [
         "Botto"
       ],
       "name_note": "Botto is a decentralised autonomous AI artist created by Mario Klingemann with ElevenYellow, governed by the BottoDAO community.",
       "practice": "Decentralised autonomous AI artist created by Mario Klingemann with ElevenYellow; a token-holder community votes each week on 350 'fragments' and the winner is minted and auctioned on SuperRare.",
-      "fit": "weak",
       "status": "longlist",
       "notes": "Researched by CLAUDE in a second pass, search results only. No titled nature work confirmed. Leads: an early period called 'Cosmic Garden' (Round 0, token 1 on Verse) and a 'Synthetic Histories' piece (token 50) described as a surrealist landscape. Both need a look at the images before they count.",
       "works": []
     },
     {
-      "id": "A43",
+      "id": "A42",
       "artist": "Noper",
       "as_listed": [
         "Noper"
       ],
       "name_note": "Identity: Noper is a pseudonymous multidisciplinary artist who makes AI video and NFT art, mainly on Ethereum through Fellowship / daily.xyz (also listed there as 'Noper and 0009'). Works have been shown at House of Fine Art, Unit London, Sala Equis and Artspace55. Noper has also worked with musicians (Raye, Future, Metro Boomin). Real name and location not found. Medium confidence that this is the right Noper, since it is the only NFT artist by that name.",
       "practice": "AI-video and NFT artist who explores 'the tangible and intangible facets of life through technology', using symbolism and technology for storytelling.",
-      "fit": "none",
       "status": "longlist",
-      "notes": "No nature-related work found. The only series identified, 'Mall Mirage', is described as a hallucinogenic dissection of 1990s corporate-media visions of the future, which is not nature. There is an OpenSea 'noper-collection' (launched November 2024, 32 items) and a Verse series 'noper by noper', but I could not open either page to check for nature imagery (WebFetch was blocked and search budget ran out). Worth checking these by hand before ruling Noper out.",
+      "notes": "No nature-related work found. The only series identified, 'Mall Mirage', is described as a hallucinogenic dissection of 1990s corporate-media visions of the future, which is not nature. There is an OpenSea 'noper-collection' (launched November 2024, 32 items) and a Verse series 'noper by noper', but I could not open either page to check for nature imagery (WebFetch was blocked and search budget ran out).",
       "works": []
     },
     {
-      "id": "A44",
+      "id": "A43",
       "artist": "Eko33",
       "as_listed": [
         "Ekko33"
       ],
       "name_note": "'Ekko33' is a misspelling of Eko33, the alias of Jean-Jacques Duclaux (Swiss, b. 1980). No artist named Ekko33 was found. High confidence.",
       "practice": "Swiss generative artist coding since 1999 who blends algorithms, AI datasets, machine vision and plotter drawing, often drawing on Swiss topography and environmental data.",
-      "fit": "medium",
       "status": "longlist",
       "notes": "One profile says his work is often inspired by nature and environmental data (a wild bird in the Swiss Alps). Other series: 'Latent Ink' (212 tokens, Ethereum, AI and plotter) and 'Modern Times'. He was in the Tezos / Serpentine / Bloomberg Philanthropies NFT installation at the 2022 Venice Biennale, and an nft now profile covers his move to Solana. Only Neural Sediments has a confirmed nature or ecology concept. Work notes: Delicate Season: The work exists. Its nature content is unconfirmed.",
       "works": [
@@ -2648,16 +2591,15 @@ TG.research = {
       ]
     },
     {
-      "id": "A45",
+      "id": "A44",
       "artist": "Roope Rainisto",
       "as_listed": [
         "Roope Rainisto"
       ],
       "name_note": "",
       "practice": "Finnish designer and artist making 'post-photography': AI-generated photographic series from custom-trained models, such as Life in West America, Vacation, Post Real and REWORLD.",
-      "fit": "medium",
       "status": "longlist",
-      "notes": "Life in West America is the best fit. The landscapes collection's exact title and year were not given in the source (likely 2022, given the model version, but unconfirmed). Symbiosis is marked unverified because only the brand page summary was seen, and its nature content is unclear. Vacation (Verse, about 500 images, hikers against craggy peaks) is leisure-focused and only nature-adjacent.",
+      "notes": "The landscapes collection's exact title and year were not given in the source (likely 2022, given the model version, but unconfirmed). Symbiosis is marked unverified because only the brand page summary was seen, and its nature content is unclear. Vacation (Verse, about 500 images, hikers against craggy peaks) is leisure-focused and only nature-adjacent.",
       "works": [
         {
           "title": "Life in West America",
@@ -2716,27 +2658,25 @@ TG.research = {
       ]
     },
     {
-      "id": "A46",
+      "id": "A45",
       "artist": "Gene Kogan",
       "as_listed": [
         "Gene Kogan"
       ],
       "name_note": "",
       "practice": "US artist and programmer; ml4a workshops, the autonomous AI artist Abraham (conceived 2017, first works 2021) and the Eden toolkit.",
-      "fit": "none",
       "status": "longlist",
       "notes": "Researched by CLAUDE in a second pass, search results only. No nature, plant or landscape work found. His works list shows WikiArt GAN (2018), Abraham and ml4a. genekogan.com/works.md was not opened.",
       "works": []
     },
     {
-      "id": "A47",
+      "id": "A46",
       "artist": "Sarp Kerem Yavuz",
       "as_listed": [
         "Sarp Kerem Yavuz"
       ],
       "name_note": "",
       "practice": "Paris-born, Istanbul-raised photographer and AI artist whose work deals with masculinity, queerness, Orientalism and Ottoman imagery, including AI images exposed onto expired Polaroid film.",
-      "fit": "weak",
       "status": "longlist",
       "notes": "Most of his work is not about nature. Main AI series: WET_DREAMS (Layer.ai, shown in 'Glorious Century', Anna Laudel Istanbul, 2023), 'Polaroids from the Ottoman Empire', and 'Under the Sultan's Eye' (2024, Verse, made with Supersense Vienna on 20x24 Polaroid). No tulip, garden or landscape series found. Cats of Topkapı is the only animal work. It is a commercial-platform release, not a crypto drop. Galleries: Anna Laudel, Von Lintel.",
       "works": [
@@ -2761,16 +2701,15 @@ TG.research = {
       ]
     },
     {
-      "id": "A48",
+      "id": "A47",
       "artist": "Ivona Tau",
       "as_listed": [
         "Ivana Tau"
       ],
       "name_note": "Correct name is Ivona Tau (Lithuanian AI artist and machine-learning researcher, b. 1990). I found no artist named 'Ivana Tau'; the brief almost certainly means Ivona Tau.",
       "practice": "Lithuanian artist and AI researcher who trains neural networks on her own photographs to make experimental 'photography' and motion paintings, often of forests, water and cityscapes, with machine forgetting as a recurring theme.",
-      "fit": "strong",
       "status": "longlist",
-      "notes": "Strong fit overall: Unit London published 'Cycles of Evolution: How Ivona Tau turns cities into forests' (2024; unitlondon.com/2024-07-10/cycles-of-evolution-how-ivona-tau-turns-cities-into-forests), and 'After Us' (2024, continuing her 2022 'Nondescriptives' generative series) is discussed in Unit London Voices. I could not confirm those works' exact titles or platforms, so they are not listed as works. Žemyna's Breath is marked unverified because the search summary named it but I could not match it to a specific listing URL with certainty; the earth-goddess reading is general knowledge, not from a source. She also had a water-themed collection (custom model trained on her photography; title not confirmed) and SuperRare works such as 'The Late Memories of the Algorithm, the Beauty of Forgetting'. Representation: Kate Vass Galerie, HOFA, LOAD gallery, EXPANDED.ART.",
+      "notes": "She also had a water-themed collection (custom model trained on her photography; title not confirmed) and SuperRare works such as 'The Late Memories of the Algorithm, the Beauty of Forgetting'. Representation: Kate Vass Galerie, HOFA, LOAD gallery, EXPANDED.ART.",
       "works": [
         {
           "title": "Auštra [2021] :: CWS x Ivona Tau",
@@ -2829,16 +2768,15 @@ TG.research = {
       ]
     },
     {
-      "id": "A49",
+      "id": "A48",
       "artist": "ClownVamp",
       "as_listed": [
         "ClownVamp"
       ],
       "name_note": "Anonymous New York-based AI artist and collector.",
       "practice": "Conceptual AI artist who uses invented narratives and alternate histories (a fictional queer Impressionist, an alien-invasion painter, a junk-ad machine) to make mischief with AI image models.",
-      "fit": "weak",
       "status": "longlist",
-      "notes": "No dedicated nature series found. Other works: 'The Truth' (2022, objkt; Impressionist painter living through an alien invasion), 'The Junk Machine' (2024, 222 works, premiered at Art Blocks Weekend Marfa; about AI ad spam), a 'Whisper' set on Verse, and 'PUPPIES' (2024, listed on raster.art; content not checked, could involve dogs). AI garden series that come up in searches belong to Duncan Rawlinson, not ClownVamp. Work notes: Chester Charles: The Lost Grand Master: The series is verified. Nature is a setting, not the subject: the series is about queer representation in art history. 'Doves by the Sea II' is the single best-fit piece by title.",
+      "notes": "No dedicated nature series found. Other works: 'The Truth' (2022, objkt; Impressionist painter living through an alien invasion), 'The Junk Machine' (2024, 222 works, premiered at Art Blocks Weekend Marfa; about AI ad spam), a 'Whisper' set on Verse, and 'PUPPIES' (2024, listed on raster.art; content not checked, could involve dogs). AI garden series that come up in searches belong to Duncan Rawlinson, not ClownVamp. Work notes: Chester Charles: The Lost Grand Master: The series is verified. Nature is a setting, not the subject: the series is about queer representation in art history.",
       "works": [
         {
           "title": "Chester Charles: The Lost Grand Master",
@@ -2863,27 +2801,25 @@ TG.research = {
       ]
     },
     {
-      "id": "A50",
+      "id": "A49",
       "artist": "Ganbrood",
       "as_listed": [
         "Ganbrood"
       ],
       "name_note": "Pseudonym of Bas Uterwijk (Dutch, b. 1968).",
       "practice": "Former VFX, 3D-animation and games artist who has worked with GAN and other AI image synthesis since 2019, known for 'pseudo-figurative' images and photoreal reconstructions of historical figures (e.g. Looking for Vincent).",
-      "fit": "none",
       "status": "longlist",
       "notes": "No nature-themed series found. Known series: SOMNIVM (Verse; titled after Kepler's 1608 'Somnium', a dream voyage to the Moon, so it may contain otherworldly landscapes, but this is unchecked), Daemonica Syntheticum (Verse), Looking for Vincent (2024, Kate Vass Galerie), Arcana Mirabilis, and portraits of historical figures. He has minted on Ethereum and Tezos (Hic et Nunc since 2021) and showed at SuperRare's New York gallery in 2022. A 'GAN Nature' collection on harvest.art is by someone else. If the curators have a specific Ganbrood landscape in mind, it needs a title to check.",
       "works": []
     },
     {
-      "id": "A51",
+      "id": "A50",
       "artist": "Kevin Abosch",
       "as_listed": [
         "Kevin Abosh"
       ],
       "name_note": "Correct spelling: Kevin Abosch.",
       "practice": "Irish conceptual artist and photographer working with identity, value and blockchain (tokens, hashes, crypto-art).",
-      "fit": "medium",
       "status": "longlist",
       "notes": "Forever Rose is confirmed: Feb 2018, GIFTO, US$1m from 10 buyers. Reports differ on the payment currency (GTO/IAMA tokens vs ether). Potato #345 is not on-chain; its creation year was not found (the sale was in 2015 and reported in Jan 2016), and its ~EUR 1m sale price was never independently verified.",
       "works": [
@@ -2929,14 +2865,13 @@ TG.research = {
       ]
     },
     {
-      "id": "A52",
+      "id": "A51",
       "artist": "Alkan Avcıoğlu",
       "as_listed": [
         "Alkan Avcioglu"
       ],
       "name_note": "Correct Turkish spelling: Alkan Avcıoğlu (b. 1982).",
       "practice": "Turkish multidisciplinary artist (film critic, DJ, journalist, PhD in communication) whose AI 'post-photography' makes surreal images of crowds and urban overload as a commentary on the contemporary human condition.",
-      "fit": "weak",
       "status": "longlist",
       "notes": "His main concerns are urban life, technology and crowds, not nature. 'Strata' is 999 Solana NFTs about technology and urban life. 'Familial Chronicles' was shown at Kate Vass Galerie. He is also on daily.xyz and was sold at Pandolfini ('Simulacrum #7'). It may be worth asking the artist or Asprey Studio for an image of 'Earth Misread'. Work notes: Overpopulated Symphonies: The series is verified. Its landscape content rests on one image description in a search summary. | Earth Misread: The lot appeared only in a search result. A follow-up search on the exact title found nothing.",
       "works": [
@@ -2979,29 +2914,27 @@ TG.research = {
       ]
     },
     {
-      "id": "A53",
+      "id": "A52",
       "artist": "DeepBlack",
       "as_listed": [
         "Deepblack"
       ],
       "name_note": "Identity: DeepBlack is a pseudonymous 'AI artist' project, not a person under that name. It released 3,073 GAN-generated artworks as NFTs on Ethereum, without human curation, conceived in 2018 and minted in 2019. Its code is public on GitHub. The OpenSea collection is 'bitairt'. Medium confidence this is the intended DeepBlack: it is the only crypto or AI art entity found under the name, but no person behind it was identified.",
       "practice": "Early (2019) autonomous GAN art project that minted thousands of uncurated machine-generated images on Ethereum, with metadata 'boosts', capped at 3,073 pieces.",
-      "fit": "none",
       "status": "longlist",
       "notes": "I could not confirm any nature imagery. The collection exists (OpenSea 'bitairt', about 720 owners), but I could not open it to see whether the GAN outputs look like landscapes or plants: WebFetch was blocked and the search budget ran out. Its interest for the show is historical (an early autonomous AI art machine on-chain), not thematic. If the curators know a specific DeepBlack piece, check it by hand. Sources: https://opensea.io/collection/bitairt/overview, https://lazynfts.substack.com/p/newsletter-21, https://www.quicknode.com/builders-guide/tools/deepblack (a directory listing, less reliable).",
       "works": []
     },
     {
-      "id": "A54",
+      "id": "A53",
       "artist": "Sougwen Chung",
       "as_listed": [
         "Sougwen Chung"
       ],
       "name_note": "",
       "practice": "Chinese-Canadian artist who draws and paints together with robotic systems (D.O.U.G.) driven by biofeedback, city flow data and machine learning.",
-      "fit": "medium",
       "status": "longlist",
-      "notes": "F.R.A.N. is the best fit. Omnia per Omnia is a weak fit (urban 'landscape'). Assembly Lines (2022, robotic swarm tied to city flow) and Mutations of Presence (2021, biofeedback) have no clear nature content. The sougwen.com ?p= URLs are generic WordPress IDs taken from search results; check them before citing publicly.",
+      "notes": "Assembly Lines (2022, robotic swarm tied to city flow) and Mutations of Presence (2021, biofeedback) have no clear nature content. The sougwen.com ?p= URLs are generic WordPress IDs taken from search results; check them before citing publicly.",
       "works": [
         {
           "title": "F.R.A.N. (Flora Rearing Agricultural Network)",
@@ -3061,16 +2994,15 @@ TG.research = {
       ]
     },
     {
-      "id": "A55",
+      "id": "A54",
       "artist": "Jake Elwes",
       "as_listed": [
         "Jake Elwes"
       ],
       "name_note": "",
       "practice": "British media artist (b. 1993) working with machine learning, known mainly for queer and drag AI work (The Zizi Project), with some pieces that put AI back into natural landscapes.",
-      "fit": "medium",
       "status": "longlist",
-      "notes": "CUSP is a very strong fit for the 'touch grass' idea (the AI is brought out to the marsh). Most of Elwes's other work (Zizi, Machine Learning Porn, Closed Loop, Latent Space) is not about nature. 'Latent Space' (2017) explores ImageNet categories, which include animals, but it is not about nature. Live performance of CUSP with sound artist Cameron Thomas at the Zabludowicz Collection.",
+      "notes": "Most of Elwes's other work (Zizi, Machine Learning Porn, Closed Loop, Latent Space) is not about nature. 'Latent Space' (2017) explores ImageNet categories, which include animals, but it is not about nature. Live performance of CUSP with sound artist Cameron Thomas at the Zabludowicz Collection.",
       "works": [
         {
           "title": "CUSP",
@@ -3095,16 +3027,15 @@ TG.research = {
       ]
     },
     {
-      "id": "A56",
+      "id": "A55",
       "artist": "Brendan Dawes",
       "as_listed": [
         "Brenden Dawes"
       ],
       "name_note": "Listed as 'Brenden Dawes'; the correct spelling is Brendan Dawes (UK, Manchester).",
       "practice": "UK artist and designer using code, data and machine learning to make generative prints, plotter drawings, data objects and NFTs (KnownOrigin, SuperRare, MakersPlace, Foundation, Nifty Gateway; represented by Gazelli Art House).",
-      "fit": "weak",
       "status": "longlist",
-      "notes": "Weak fit. Dawes cites nature as an influence, but his best-known NFTs (Oblivious/Oblivion on SuperRare, 'Moments Spent with Others', 'I'll Take a Slice', 'The Art of Transactions') are about memory, film, cities and blockchain data, not nature. Other leads not confirmed: 'Somewhere Amongst The Trees' (2015, a solo exhibition at Dog & Pony, Munich, not a single work) and 'Majestic Landscapes' (2015, listed in his archive with no description found). 'Flocks, Herds and Schools' is marked unverified because only a search snippet of his projects page was seen. brendandawes.com could not be opened in this session; a curator should browse his projects page directly.",
+      "notes": "Other leads not confirmed: 'Somewhere Amongst The Trees' (2015, a solo exhibition at Dog & Pony, Munich, not a single work) and 'Majestic Landscapes' (2015, listed in his archive with no description found). 'Flocks, Herds and Schools' is marked unverified because only a search snippet of his projects page was seen. brendandawes.com could not be opened in this session; a curator should browse his projects page directly.",
       "works": [
         {
           "title": "Amongst The Leaves",
@@ -3144,14 +3075,13 @@ TG.research = {
       ]
     },
     {
-      "id": "A57",
+      "id": "A56",
       "artist": "Casey Reas",
       "as_listed": [
         "Casey Raes"
       ],
       "name_note": "Listed as 'Casey Raes'; the correct spelling is Casey Reas (co-creator of Processing).",
       "practice": "US artist and co-founder of Processing who makes software-based generative images, video and, since about 2018, GAN-derived 'Compressed Cinema' and 'Untitled Film Stills'.",
-      "fit": "medium",
       "status": "longlist",
       "notes": "The Earthly Delights line is the clear nature work. Sources differ on whether the 2019 videos are GAN outputs or software built from frames generated during GAN training; the 2024 3.1 series uses a rule-based algorithm. The exact Unit London title and format for 2024 (exhibition or NFT drop) were seen only as a URL and snippet, hence verified=false. 'Conjured Terrain' (Vellum LA, Oct 2023; Untitled Film Stills plus Compressed Cinema) has a landscape-sounding title but is not nature-themed. reas.com could not be opened in this session.",
       "works": [
@@ -3215,14 +3145,13 @@ TG.research = {
       ]
     },
     {
-      "id": "A58",
+      "id": "A57",
       "artist": "Jakob Kudsk Steensen",
       "as_listed": [
         "Jakob Kudsk Steensen"
       ],
       "name_note": "Added by HUMAN after the first list (step #005). Some press spells him 'Jacob'.",
       "practice": "Danish artist based in Berlin who builds real-time simulations, VR and AR environments from field recordings and 3D scans of overlooked or threatened ecosystems.",
-      "fit": "strong",
       "status": "longlist",
       "notes": "Works are game-engine environments made for installation, VR or AR. No NFT or token edition found. Most have screen-based video versions; online presentation needs a conversation with the studio. His site jakobsteensen.com could not be opened from this session, so details rest on institutional pages and press.",
       "works": [
@@ -3304,6 +3233,39 @@ TG.research = {
             "https://www.serpentinegalleries.org/watch/azure-blue-damselflies-from-the-deep-listener-jakob-kudsk-steensen/"
           ],
           "id": "W130",
+          "status": "candidate"
+        }
+      ]
+    },
+    {
+      "id": "A58",
+      "artist": "Monica Rizzolli",
+      "as_listed": [
+        "(added by Lukas in place of Vanessa Rosa)"
+      ],
+      "name_note": "Some listings spell it Rizzoli.",
+      "practice": "Brazilian generative artist working with code and botanical forms.",
+      "status": "longlist",
+      "notes": "Acquired by LACMA. Also in the Toledo Museum of Art's Infinite Images show.",
+      "works": [
+        {
+          "title": "Fragments of an Infinite Field",
+          "year": "2021",
+          "medium": "On-chain generative algorithm, 1,024 outputs",
+          "where": "Art Blocks Curated, Ethereum (project 159)",
+          "nature": [
+            "flora",
+            "landscape"
+          ],
+          "why": "An idealised, invented plant species spread across a potentially infinite field of foliage.",
+          "named_in_brief": false,
+          "verified": true,
+          "sources": [
+            "https://artblocks.io/project/159",
+            "https://www.artblocks.io/curated/articles/in-conversation-with-monica-rizzolli",
+            "https://heni.com/news/article/trending-monica-rizzolli-the-generative-artist-whose-work-has-been-acquired-by-lacma"
+          ],
+          "id": "W131",
           "status": "candidate"
         }
       ]

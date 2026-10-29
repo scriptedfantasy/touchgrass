@@ -1,4 +1,4 @@
-// The artist list as received from the human curator on 2026-10-29, verbatim.
+// The artist list as Lukas sent it on 2026-10-29, verbatim.
 window.TG = window.TG || {};
 TG.brief = [
   "linda dounia - le bouquet",
