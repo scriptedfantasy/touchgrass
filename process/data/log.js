@@ -61,4 +61,11 @@ TG.log = [
       'One page in the project repository at /process. The log is a plain data file, so every step we take gets appended there and committed. The git history doubles as a second record.',
     ],
   },
+  {
+    n: '005',
+    date: '2026-10-29',
+    who: 'HUMAN',
+    title: 'Added an artist: Jakob Kudsk Steensen',
+    body: ['Sent while the research was running. CLAUDE researched him separately with the same rules. He is now 58 of 58.'],
+  },
 ];
